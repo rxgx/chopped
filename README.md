@@ -1,4 +1,4 @@
-html-skeleton
+THIS for THAT
 =============
 
-Just enough code to get a web application started.
+You've ran out of ideas and money. Here's a few ideas on how to pivot!
