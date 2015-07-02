@@ -1,0 +1,69 @@
+/*
+
+"ALL YOUR BASE" CSS by RXGX
+
+SIZE GUIDE
+
+ PX      EM
+----  --------
+ 10    0.625
+ 11    0.6875
+ 12    0.75
+ 13    0.8125
+ 14    0.875
+ 15    0.9375
+ 16    1.0
+ 18    1.125
+ 20    1.25
+ 24    1.5
+
+*/
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: normal 100% sans-serif;
+}
+
+body {
+    color: rgb(25, 25, 25);
+}
+
+button, input, textarea {
+    font-family: sans-serif;
+}
+
+button {
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+address, dd, dt, h1, h2, h3, h4, h5, h6, figure, figcaption, li, p, ul, ol {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+address, ol, p, ul {
+    margin-top: 1.5em;
+    line-height: 1.5em;
+}
+
+li {
+    margin-left: 1.5em;
+}
+
+.hitarea {
+    cursor: pointer;
+    display: block;
+}

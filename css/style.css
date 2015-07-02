@@ -1,0 +1,55 @@
+
+body {
+    font: normal 1em/1.5em Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+#layout {
+    width: 640px;
+    margin: 3em auto 0;
+    text-align: center;
+}
+
+#header {
+    margin: 4em 0;
+}
+
+#header .heading {
+    font-size: 2em;
+}
+
+#header .intro {
+    font-family: serif;
+    font-size: 1.5em;
+}
+
+#header .separator {
+    margin-left: .25rem;
+    font-size: 1.5rem;
+    font-family: serif;
+    vertical-align: top;
+}
+
+
+
+
+#application .separator,
+#application .output {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#application .separator {
+    margin: 0 1em;
+    font-size: 1.25rem;
+    font-family: serif;
+    font-style: italic;
+}
+
+#application .output {
+    border: 1px solid #39f;
+    padding: .5em .75em;
+    font-size: 1.75em;
+    font-weight: 300;
+    line-height: 1.75rem;
+}
