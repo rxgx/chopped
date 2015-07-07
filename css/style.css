@@ -1,6 +1,6 @@
 
 body {
-    font: normal 1em/1.5em Helvetica, Arial, sans-serif;
+    font: 400 1em/1.5em Roboto, Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
@@ -18,6 +18,10 @@ body {
     font-size: 2em;
 }
 
+#header .heading strong {
+    font-weight: 700;
+}
+
 #header .intro {
     font-family: serif;
     font-size: 1.5em;
@@ -28,28 +32,4 @@ body {
     font-size: 1.5rem;
     font-family: serif;
     vertical-align: top;
-}
-
-
-
-
-#application .separator,
-#application .output {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#application .separator {
-    margin: 0 1em;
-    font-size: 1.25rem;
-    font-family: serif;
-    font-style: italic;
-}
-
-#application .output {
-    border: 1px solid #39f;
-    padding: .5em .75em;
-    font-size: 1.75em;
-    font-weight: 300;
-    line-height: 1.75rem;
 }
