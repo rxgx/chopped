@@ -1,7 +1,5 @@
-// This For That
-var DOM = React.DOM;
 
-var ApplicationComponent = React.createClass({
+var RandomizerComponent = React.createClass({
     mixins: [ReactFireMixin],
 
     componentWillMount: function() {
@@ -23,6 +21,8 @@ var ApplicationComponent = React.createClass({
     },
 
     render: function() {
+        var DOM = React.DOM;
+
         var sites = this.state.data.sites;
         var site = sites[Math.floor(Math.random() * sites.length)];
 
@@ -30,16 +30,16 @@ var ApplicationComponent = React.createClass({
         var thing = things[Math.floor(Math.random() * things.length)];
 
         return DOM.div({ className: 'container' }, [
-            DOM.strong({ className: 'output' }, site),
-            DOM.em({ className: 'separator' }, 'for'),
-            DOM.strong({ className: 'output' }, thing)
+            DOM.strong({ style: styles.output }, site),
+            DOM.em({ style: styles.separator }, 'for'),
+            DOM.strong({ style: styles.output }, thing)
         ]);
     }
 });
 
 function loadApplication(event) {
     var container = document.getElementById('application');
-    var application = React.createElement(ApplicationComponent);
+    var application = React.createElement(RandomizerComponent);
     React.render(application, container);
 };
 
