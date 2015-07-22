@@ -20,20 +20,39 @@ var RandomizerComponent = React.createClass({
         return { data: data };
     },
 
+    getRandomValue: function(model) {
+        var records = this.state.data[model];
+        var record = records[Math.floor(Math.random() * records.length)];
+        return record;
+    },
+
+    onClick: function() {
+        var site = this.getRandomValue('sites');
+        var thing = this.getRandomValue('things');
+        this.setState({ site: site, thing: thing });
+    },
+
     render: function() {
         var DOM = React.DOM;
 
-        var sites = this.state.data.sites;
-        var site = sites[Math.floor(Math.random() * sites.length)];
+        var site = this.getRandomValue('sites');
+        var thing = this.getRandomValue('things');
 
-        var things = this.state.data.things;
-        var thing = things[Math.floor(Math.random() * things.length)];
-
-        return DOM.div({ className: 'container' }, [
-            DOM.strong({ style: styles.output }, site),
-            DOM.em({ style: styles.separator }, 'for'),
-            DOM.strong({ style: styles.output }, thing)
-        ]);
+        return DOM.div({ className: 'container' },
+            DOM.p({ },
+                DOM.strong({ style: styles.output }, site),
+                DOM.em({ style: styles.separator }, 'for'),
+                DOM.strong({ style: styles.output }, thing)
+            ),
+            DOM.p({ style: styles.content },
+                DOM.button({
+                    className: 'hitarea',
+                    onClick: this.onClick,
+                    style: styles.button,
+                    type: 'button'
+                }, 'Try Again')
+            )
+        );
     }
 });
 
