@@ -1,6 +1,6 @@
 
 body {
-    font: 400 1em/1.5em Roboto, Helvetica, Arial, sans-serif;
+    font: 400 1em/1.5em 'MS PGothic', 'Osaka', sans-serif;
     text-align: center;
 }
 
@@ -19,11 +19,11 @@ body {
 }
 
 #header .heading strong {
-    font-weight: 700;
+    font-weight: 900;
 }
 
 #header .intro {
-    font-family: serif;
+    font-weight: 300;
     font-size: 1.5em;
 }
 
