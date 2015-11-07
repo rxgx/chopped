@@ -26,6 +26,12 @@
     "eslint-config-xo-space": "^0.6.1"
   },
   "eslintConfig": {
-    "extend": ["xo-space"]
+    "extend": [
+      "xo-space"
+    ]
+  },
+  "dependencies": {
+    "bole": "^2.0.0",
+    "express": "^4.13.3"
   }
 }
