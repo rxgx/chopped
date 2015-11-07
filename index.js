@@ -13,8 +13,12 @@ bole.output({
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function(req, res) {
+  log.info('Homepage viewed');
   res.sendFile([__dirname, 'public/index.html'].join('/'));
 });
+
+app.use('/js', express.static('public/js'));
+app.use('/css', express.static('public/css'));
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
