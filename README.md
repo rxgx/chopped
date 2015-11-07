@@ -5,4 +5,10 @@ You've ran out of ideas and money. Here's a few ideas on how to pivot!
 
 * Data via Firebase
 * CSS styles as JSON
-* React Component
+* React Components
+
+#### Run Dev server
+
+    nvm install
+    npm i
+    npm start
