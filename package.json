@@ -23,16 +23,20 @@
   },
   "homepage": "https://github.com/rxgx/thisforthat#readme",
   "devDependencies": {
-    "eslint": "^1.9.0",
+    "eslint-config-react": "^1.1.1",
     "eslint-config-rxgx": "^1.0.0"
   },
   "eslintConfig": {
     "extend": [
+      "react",
       "rxgx"
     ]
   },
   "dependencies": {
     "bole": "^2.0.0",
     "express": "^4.13.3"
+  },
+  "peerDependencies": {
+    "eslint": "^1.9.0"
   }
 }
