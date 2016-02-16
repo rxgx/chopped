@@ -1,6 +1,3 @@
-'use strict';
-
-var ENV = process.env;
 var bole = require('bole');
 var express = require('express');
 var app = express();
@@ -9,10 +6,10 @@ var log = bole('thisforthat');
 bole.output({
   level: 'info',
   stream: process.stdout
-})
+});
 
 // respond with "hello world" when a GET request is made to the homepage
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
   log.info('Homepage viewed');
   res.sendFile([__dirname, 'public/index.html'].join('/'));
 });

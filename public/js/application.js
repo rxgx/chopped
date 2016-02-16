@@ -41,7 +41,7 @@ var RandomizerComponent = React.createClass({
 
     return DOM.div({ className: 'container' },
       DOM.p({ },
-        DOM.strong({ style: styles.output }, site),
+        DOM.strong({style: styles.output }, site),
         DOM.em({ style: styles.separator }, 'for'),
         DOM.strong({ style: styles.output }, thing)
       ),
@@ -61,6 +61,6 @@ function loadApplication(event) {
   var container = document.getElementById('application');
   var application = React.createElement(RandomizerComponent);
   React.render(application, container);
-};
+}
 
 window.onload = loadApplication;
