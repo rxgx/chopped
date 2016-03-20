@@ -36,7 +36,7 @@
     "firebase": "^2.4.1",
     "react": "^0.14.7",
     "reactfire": "^0.6.0",
-    "webpack": "^1.12.14"
+    "webpack": "^2.1.0-beta.4"
   },
   "babel": {
     "presets": [
