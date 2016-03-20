@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "NODE_ENV=development webpack --watch",
+    "webpack": "NODE_ENV=development webpack"
   },
   "repository": {
     "type": "git",
@@ -25,14 +27,22 @@
   },
   "homepage": "https://github.com/rxgx/thisforthat#readme",
   "devDependencies": {
+    "babel-core": "^6.7.2",
     "babel-eslint": "^4.1.6",
     "babel-loader": "^6.2.4",
-    "eslint-config-react": "^1.1.1",
+    "babel-preset-es2015-native-modules": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
     "eslint-config-rxgx": "^1.0.1",
     "firebase": "^2.4.1",
     "react": "^0.14.7",
     "reactfire": "^0.6.0",
     "webpack": "^1.12.14"
+  },
+  "babel": {
+    "presets": [
+      "es2015-native-modules",
+      "react"
+    ]
   },
   "eslintConfig": {
     "extends": [
