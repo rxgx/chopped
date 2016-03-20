@@ -26,11 +26,13 @@
   "homepage": "https://github.com/rxgx/thisforthat#readme",
   "devDependencies": {
     "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.4",
     "eslint-config-react": "^1.1.1",
-    "eslint-config-rxgx": "^1.0.0",
+    "eslint-config-rxgx": "^1.0.1",
     "firebase": "^2.4.1",
     "react": "^0.14.7",
-    "reactfire": "^0.6.0"
+    "reactfire": "^0.6.0",
+    "webpack": "^1.12.14"
   },
   "eslintConfig": {
     "extends": [
