@@ -26,7 +26,7 @@ const plugins = [
 
 module.exports = {
   entry,
-  config: module,
+  module: config,
   output,
   plugins
 };
