@@ -2,6 +2,8 @@ import Firebase from 'firebase';
 import ReactFireMixin from 'reactfire';
 import React from 'react';
 
+const FIREBASE_URL = 'https://thisforthat.firebaseio.com/data/';
+
 const inlineMixin = {
   display: 'inline-block',
   verticalAlign: 'middle'
@@ -41,7 +43,7 @@ const RandomizerComponent = React.createClass({
   mixins: [ReactFireMixin],
 
   componentWillMount: function componentWillMount() {
-    let sitesRef = new Firebase('https://thisforthat.firebaseio.com/data/');
+    let sitesRef = new Firebase(FIREBASE_URL);
     this.bindAsObject(sitesRef, 'data');
   },
 
