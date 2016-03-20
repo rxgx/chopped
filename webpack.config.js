@@ -4,7 +4,7 @@ const entry = {
   'js/app': './src/app.js'
 };
 
-const module = {
+const config = {
   loaders: {
     exclude: /node_modules/,
     loader: 'babel',
@@ -26,7 +26,7 @@ const plugins = [
 
 module.exports = {
   entry,
-  module,
+  config: module,
   output,
   plugins
 };
