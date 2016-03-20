@@ -42,16 +42,16 @@ const styles = {
 const RandomizerComponent = React.createClass({
   mixins: [ReactFireMixin],
 
-  componentWillMount: function componentWillMount() {
+  componentWillMount() {
     let sitesRef = new Firebase(FIREBASE_URL);
     this.bindAsObject(sitesRef, 'data');
   },
 
-  componentWillUnmount: function componentWillUnmount() {
+  componentWillUnmount() {
     this.unbind('items');
   },
 
-  getInitialState: function getInitialState() {
+  getInitialState() {
     let data = {
       sites: ['Website'],
       things: ['Thing']
@@ -60,19 +60,19 @@ const RandomizerComponent = React.createClass({
     return {data: data};
   },
 
-  getRandomValue: function getRandomValue(model) {
+  getRandomValue(model) {
     var records = this.state.data[model];
     var record = records[Math.floor(Math.random() * records.length)];
     return record;
   },
 
-  onClick: function onClick() {
+  handleClickEvent() {
     var site = this.getRandomValue('sites');
     var thing = this.getRandomValue('things');
     this.setState({site: site, thing: thing});
   },
 
-  render: function render() {
+  render() {
     const site = this.getRandomValue('sites');
     const thing = this.getRandomValue('things');
 
@@ -84,17 +84,11 @@ const RandomizerComponent = React.createClass({
           <strong style={styles.output}>{thing}</strong>
         </p>
         <p style={styles.content}>
-          <button className="hitarea" onClick={this.onClick} style={styles.button} type="button">Try Again</button>
+          <button className="hitarea" onClick={this.handleClickEvent} style={styles.button} type="button">Try Again</button>
         </p>
       </div>
     );
   }
 });
 
-function loadApplication() {
-  var container = document.getElementById('application');
-  var application = React.createElement(RandomizerComponent);
-  React.render(application, container);
-}
-
-window.onload = loadApplication;
+export default RandomizerComponent;
