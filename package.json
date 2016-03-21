@@ -41,6 +41,12 @@
     "reactfire": "^0.6.0",
     "webpack": "^2.1.0-beta.4"
   },
+  "babel": {
+    "presets": [
+      "es2015-native-modules",
+      "react"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "rxgx"
