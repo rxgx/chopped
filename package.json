@@ -4,6 +4,7 @@
   "description": "Web 2.0 startup idea generator",
   "main": "index.js",
   "scripts": {
+    "deploy": "git subtree push --prefix public origin gh-pages",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "NODE_ENV=development webpack --watch",
