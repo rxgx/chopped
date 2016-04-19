@@ -36,8 +36,8 @@
     "eslint": "^2.4.0",
     "eslint-config-rxgx": "^1.0.1",
     "firebase": "^2.4.1",
-    "react": "^0.15.1",
-    "react-dom": "^0.15.1",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
     "reactfire": "^0.6.0",
     "webpack": "^2.1.0-beta.4"
   },
