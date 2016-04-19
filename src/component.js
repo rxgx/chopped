@@ -76,17 +76,16 @@ const RandomizerComponent = React.createClass({
     const site = this.getRandomValue('sites');
     const thing = this.getRandomValue('things');
 
-    return (
-      <div className="container">
-        <p>
-          <strong style={styles.output}>{site}</strong>
-          <em style={styles.separator}>for</em>
-          <strong style={styles.output}>{thing}</strong>
-        </p>
-        <p style={styles.content}>
-          <button className="hitarea" onClick={this.handleClickEvent} style={styles.button} type="button">Try Again</button>
-        </p>
-      </div>
+    return (<div className="container">
+      <p>
+        <strong style={styles.output}>{site}</strong>
+        <em style={styles.separator}>for</em>
+        <strong style={styles.output}>{thing}</strong>
+      </p>
+      <p style={styles.content}>
+        <button className="hitarea" onClick={this.handleClickEvent} style={styles.button} type="button">Try Again</button>
+      </p>
+    </div>
     );
   }
 });
