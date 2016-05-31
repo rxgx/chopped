@@ -35,11 +35,11 @@
     "babel-preset-react": "^6.5.0",
     "eslint": "^2.4.0",
     "eslint-config-rxgx": "^1.1.0",
-    "firebase": "^2.4.1",
-    "react": "^15.0.1",
-    "react-dom": "^15.0.1",
-    "reactfire": "^0.6.0",
-    "webpack": "^2.1.0-beta.4"
+    "firebase": "^2.4.2",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "reactfire": "^1.0.0",
+    "webpack": "^2.1.0-beta.13"
   },
   "babel": {
     "presets": [
