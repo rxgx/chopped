@@ -43,7 +43,7 @@ const RandomizerComponent = React.createClass({
   mixins: [ReactFireMixin],
 
   componentWillMount() {
-    let sitesRef = new Firebase(FIREBASE_URL);
+    const sitesRef = new Firebase(FIREBASE_URL);
     this.bindAsObject(sitesRef, 'data');
   },
 
@@ -52,40 +52,41 @@ const RandomizerComponent = React.createClass({
   },
 
   getInitialState() {
-    let data = {
+    const data = {
       sites: ['Website'],
       things: ['Thing']
     };
 
-    return {data: data};
+    return {data};
   },
 
   getRandomValue(model) {
-    var records = this.state.data[model];
-    var record = records[Math.floor(Math.random() * records.length)];
+    const records = this.state.data[model];
+    const record = records[Math.floor(Math.random() * records.length)];
     return record;
   },
 
   handleClickEvent() {
-    var site = this.getRandomValue('sites');
-    var thing = this.getRandomValue('things');
-    this.setState({site: site, thing: thing});
+    const site = this.getRandomValue('sites');
+    const thing = this.getRandomValue('things');
+    this.setState({site, thing});
   },
 
   render() {
     const site = this.getRandomValue('sites');
     const thing = this.getRandomValue('things');
 
-    return (<div className="container">
-      <p>
-        <strong style={styles.output}>{site}</strong>
-        <em style={styles.separator}>for</em>
-        <strong style={styles.output}>{thing}</strong>
-      </p>
-      <p style={styles.content}>
-        <button className="hitarea" onClick={this.handleClickEvent} style={styles.button} type="button">Try Again</button>
-      </p>
-    </div>
+    return (
+      <div className="container">
+        <p>
+          <strong style={styles.output}>{site}</strong>
+          <em style={styles.separator}>for</em>
+          <strong style={styles.output}>{thing}</strong>
+        </p>
+        <p style={styles.content}>
+          <button className="hitarea" onClick={this.handleClickEvent} style={styles.button} type="button">Try Again</button>
+        </p>
+      </div>
     );
   }
 });
