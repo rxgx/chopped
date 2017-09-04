@@ -1,49 +1,39 @@
 import Firebase from 'firebase';
 import ReactFireMixin from 'reactfire';
 import React from 'react';
+import styled from 'styled-components';
 
 const FIREBASE_URL = 'https://thisforthat.firebaseio.com/data/';
 
-const inlineMixin = {
-  display: 'inline-block',
-  verticalAlign: 'middle'
-};
+const ComponentStyled = styled.div`
+  .button {
+    border: 1px solid lightgray;
+    padding: 0.5em 1em;
+    background-color: #39f;
+    color: white;
+    display: inline-block;
+  }
 
-const styles = {
-  button: {
-    border: '1px solid lightgray',
-    padding: '.5em 1em',
-    backgroundColor: '#39f',
-    color: 'white',
-    display: 'inline-block'
-  },
+  .content {
+    margin-top: 3em;
+    text-align: center;
+  }
 
-  content: {
-    marginTop: '3em',
-    textAlign: 'center'
-  },
+  .separator {
+    margin: 0 1em;
+    font-size: 1.25rem;
+    font-family: serif;
+    font-style: italic;
+  }
 
-  separator: Object.assign(
-    {
-      margin: '0 1em',
-      fontSize: '1.25rem',
-      fontFamily: 'serif',
-      fontStyle: 'italic'
-    },
-    inlineMixin
-  ),
-
-  output: Object.assign(
-    {
-      border: '1px solid #39f',
-      padding: '.5em .75em',
-      fontSize: '1.75em',
-      fontWeight: '300',
-      lineHeight: '1.75rem'
-    },
-    inlineMixin
-  )
-};
+  .output {
+    border: 1px solid #39f;
+    padding: 0.5em 0.75em;
+    font-size: 1.75em;
+    font-weight: 300;
+    line-height: 1.75rem;
+  }
+`;
 
 const RandomizerComponent = React.createClass({
   mixins: [ReactFireMixin],
@@ -83,22 +73,21 @@ const RandomizerComponent = React.createClass({
     const thing = this.getRandomValue('things');
 
     return (
-      <div className="container">
+      <ComponentStyled className="container">
         <p>
-          <strong style={styles.output}>{site}</strong>
-          <em style={styles.separator}>for</em>
-          <strong style={styles.output}>{thing}</strong>
+          <strong className="output">{site}</strong>
+          <em className="separator">for</em>
+          <strong className="output">{thing}</strong>
         </p>
-        <p style={styles.content}>
+        <p className="content">
           <button
-            className="hitarea"
+            className="button hitarea"
             onClick={this.handleClickEvent}
-            style={styles.button}
             type="button">
             Try Again
           </button>
         </p>
-      </div>
+      </ComponentStyled>
     );
   }
 });
