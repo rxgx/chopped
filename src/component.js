@@ -23,20 +23,26 @@ const styles = {
     textAlign: 'center'
   },
 
-  separator: Object.assign({
-    margin: '0 1em',
-    fontSize: '1.25rem',
-    fontFamily: 'serif',
-    fontStyle: 'italic'
-  }, inlineMixin),
+  separator: Object.assign(
+    {
+      margin: '0 1em',
+      fontSize: '1.25rem',
+      fontFamily: 'serif',
+      fontStyle: 'italic'
+    },
+    inlineMixin
+  ),
 
-  output: Object.assign({
-    border: '1px solid #39f',
-    padding: '.5em .75em',
-    fontSize: '1.75em',
-    fontWeight: '300',
-    lineHeight: '1.75rem'
-  }, inlineMixin)
+  output: Object.assign(
+    {
+      border: '1px solid #39f',
+      padding: '.5em .75em',
+      fontSize: '1.75em',
+      fontWeight: '300',
+      lineHeight: '1.75rem'
+    },
+    inlineMixin
+  )
 };
 
 const RandomizerComponent = React.createClass({
@@ -84,7 +90,13 @@ const RandomizerComponent = React.createClass({
           <strong style={styles.output}>{thing}</strong>
         </p>
         <p style={styles.content}>
-          <button className="hitarea" onClick={this.handleClickEvent} style={styles.button} type="button">Try Again</button>
+          <button
+            className="hitarea"
+            onClick={this.handleClickEvent}
+            style={styles.button}
+            type="button">
+            Try Again
+          </button>
         </p>
       </div>
     );

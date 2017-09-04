@@ -1,10 +1,11 @@
 {
   "name": "thisforthat",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Web 2.0 startup idea generator",
   "main": "index.js",
   "scripts": {
     "deploy": "git subtree push --prefix public origin gh-pages",
+    "lint": "eslint **/*.js",
     "package": "NODE_ENV=production webpack --optimize-minimize",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,36 +30,57 @@
   },
   "homepage": "https://github.com/rxgx/thisforthat#readme",
   "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.14.0",
+    "babel-core": "^6.26.0",
     "babel-eslint": "^6.1.2",
-    "babel-loader": "^6.2.5",
+    "babel-loader": "^6.4.1",
     "babel-polyfill": "^6.13.0",
     "babel-preset-babili": "0.0.1",
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-react": "^6.11.1",
-    "eslint": "^3.3.1",
-    "eslint-config-react": "^1.1.1",
-    "eslint-config-xo-react": "^0.9.0",
-    "eslint-config-xo-space": "^0.14.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-config-react": "^1.1.7",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-react": "^6.1.1",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-react": "^6.10.3",
     "firebase": "^2.4.1",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
+    "prettier": "^1.6.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "reactfire": "^1.0.0",
     "rollup": "^0.34.8",
-    "webpack": "^2.1.0-beta.21"
+    "webpack": "^3.5.5"
   },
   "eslintConfig": {
-    "extends": [
-      "xo-space/esnext",
-      "xo-space",
-      "xo-react"
-    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
     "env": {
       "browser": true,
+      "es6": true,
       "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier",
+      "react"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "bracketSpacing": false,
+          "jsxBracketSameLine": true
+        }
+      ]
     }
   },
   "dependencies": {
