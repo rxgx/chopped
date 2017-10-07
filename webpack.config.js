@@ -5,7 +5,7 @@ const plugins = [new webpack.NoEmitOnErrorsPlugin()];
 module.exports = [
   {
     entry: {
-      app: `${__dirname}/src/index.js`
+      app: ['babel-polyfill', `${__dirname}/src/index.js`]
     },
     module: {
       loaders: [
