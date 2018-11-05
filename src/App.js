@@ -57,12 +57,6 @@ class ReactComponent extends React.Component {
     this.state = this.getInitialState();
   }
 
-  // componentDidCatch(error, info) {}
-
-  componentWillUnmount() {
-    this.unbind("items");
-  }
-
   getData(values) {
     const data = {};
     data.sites = values.sites.filter(item => !!item);

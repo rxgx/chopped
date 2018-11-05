@@ -1,0 +1,42 @@
+version: 2.1
+
+executors:
+  nodejs:
+    docker:
+      - image: circleci/node:10.11
+    working_directory: ~/thisforthat
+
+jobs:
+  build:
+    executor: nodejs
+    steps:
+      - attach_workspace:
+          at: .
+      - run: npm run build
+  checkout_code:
+    executor: nodejs
+    steps:
+      - checkout
+      - run: npm i --no-progress
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  test:
+    executor: nodejs
+    steps:
+      - attach_workspace:
+          at: .
+      - run: npm run test -- --runInBand
+
+workflows:
+  version: 2
+  default:
+    jobs:
+      - checkout_code
+      - test:
+          requires:
+            - checkout_code
+      - build:
+          requires:
+            - test
