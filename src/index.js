@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactComponent from './component';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-function loadApplication() {
-  const container = document.getElementById('application');
-  const component = React.createElement(ReactComponent);
-  ReactDOM.render(component, container);
-}
+ReactDOM.render(<App />, document.getElementById('root'));
 
-window.onload = loadApplication;
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister();
