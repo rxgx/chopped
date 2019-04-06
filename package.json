@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/rxgx/thisforthat#readme",
   "dependencies": {
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "16.6.0",
+    "react-dom": "16.6.0",
     "react-scripts": "2.1.1",
-    "firebase": "^5.5.7",
-    "styled-components": "^4.0.3"
+    "firebase": "5.5.7",
+    "styled-components": "4.0.3"
   },
   "scripts": {
     "deploy": "git subtree push --prefix build origin gh-pages",
