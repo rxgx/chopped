@@ -1094,144 +1094,144 @@
       "integrity": "sha512-4zAPlpDEh2VwXswwr/t8xGNDGg8RQiPxtxZ3qQEXyQsBV39ptTdESCjuBvGze1nLMVrxmTIKmnO/nAV8Tqjjzg=="
     },
     "@firebase/app": {
-      "version": "0.4.2",
-      "resolved": "https://registry.npmjs.org/@firebase/app/-/app-0.4.2.tgz",
-      "integrity": "sha512-dRwmlc0l72KrQX1qlLWrLCfi+KVjD+e8iGwZiCQWwt6e+pxSqGjxfTfYEflNE9U77iinBZg5B3JRAp4xHtl7/Q==",
+      "version": "0.4.2-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/app/-/app-0.4.2-canary.ae32b2b.tgz",
+      "integrity": "sha512-+R/idWD7X7NyH3CMwHCPra5lrM3NRU/zJqjyzdc1BscnJn2RZb3RSiU5ROGeAyAGgGKKNxuE7HAl4DvU2aeD7A==",
       "requires": {
-        "@firebase/app-types": "0.4.0",
-        "@firebase/logger": "0.1.14",
-        "@firebase/util": "0.2.16",
+        "@firebase/app-types": "0.4.0-canary.ae32b2b",
+        "@firebase/logger": "0.1.14-canary.ae32b2b",
+        "@firebase/util": "0.2.16-canary.ae32b2b",
         "dom-storage": "2.1.0",
         "tslib": "1.9.3",
         "xmlhttprequest": "1.8.0"
       }
     },
     "@firebase/app-types": {
-      "version": "0.4.0",
-      "resolved": "https://registry.npmjs.org/@firebase/app-types/-/app-types-0.4.0.tgz",
-      "integrity": "sha512-8erNMHc0V26gA6Nj4W9laVrQrXHsj9K2TEM7eL2IQogGSHLL4vet3UNekYfcGQ2cjfvwUjMzd+BNS/8S7GnfiA=="
+      "version": "0.4.0-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/app-types/-/app-types-0.4.0-canary.ae32b2b.tgz",
+      "integrity": "sha512-0STi8BKufGjKahdpueQ9Ux9eyXHaHCCTQrp9MPD2036Z0djrmyD5EyvpI0Wkcz4HhVhwFo3gM4Xvsb54TzTChQ=="
     },
     "@firebase/auth": {
-      "version": "0.11.2",
-      "resolved": "https://registry.npmjs.org/@firebase/auth/-/auth-0.11.2.tgz",
-      "integrity": "sha512-vx8rP85rxKg4oOhPROrQqXvFhFNCy2jCHd359mugfm3VBezBGqs15KHTFGL+agQY9hdhVbGw+EIGk3Y/ou/9zw==",
+      "version": "0.11.2-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/auth/-/auth-0.11.2-canary.ae32b2b.tgz",
+      "integrity": "sha512-98SnnvdDIWVMKwJAplVQMioRPVagVW6l3w8oeCkBeo5nwllgjJ2kSeMx6YHqUoVqq4Py+tcukxGQ+/Ph/XDQgw==",
       "requires": {
-        "@firebase/auth-types": "0.7.0"
+        "@firebase/auth-types": "0.7.0-canary.ae32b2b"
       }
     },
     "@firebase/auth-types": {
-      "version": "0.7.0",
-      "resolved": "https://registry.npmjs.org/@firebase/auth-types/-/auth-types-0.7.0.tgz",
-      "integrity": "sha512-QEG9azYwssGWcb4NaKFHe3Piez0SG46nRlu76HM4/ob0sjjNpNTY1Z5C3IoeJYknp2kMzuQi0TTW8tjEgkUAUA=="
+      "version": "0.7.0-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/auth-types/-/auth-types-0.7.0-canary.ae32b2b.tgz",
+      "integrity": "sha512-SR4EcmdSra1Ll1QWUwz1dq17bdbenl4J34itL7VAa9TfpPwUQzagWM4qLiHFaeaJIyGALvCJyqqKaAmcdIzENw=="
     },
     "@firebase/database": {
-      "version": "0.4.2",
-      "resolved": "https://registry.npmjs.org/@firebase/database/-/database-0.4.2.tgz",
-      "integrity": "sha512-pECztfLOBOmhWhzieUn07HcMJNA72IQp9fiy5/LXKky68gTLXI2ZOxWehWaN8ljTykVv8ZHpk8DZLK+PN98+QQ==",
+      "version": "0.4.2-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/database/-/database-0.4.2-canary.ae32b2b.tgz",
+      "integrity": "sha512-iRwY6R+GK7CBx2T3VF9OKAW0Vl6UCxOXClASaPvGOjkKCnyKciXRy4mzvv9mOW5ij4edbaoVuZO92O1ZpEz+rg==",
       "requires": {
-        "@firebase/database-types": "0.4.0",
-        "@firebase/logger": "0.1.14",
-        "@firebase/util": "0.2.16",
+        "@firebase/database-types": "0.4.0-canary.ae32b2b",
+        "@firebase/logger": "0.1.14-canary.ae32b2b",
+        "@firebase/util": "0.2.16-canary.ae32b2b",
         "faye-websocket": "0.11.1",
         "tslib": "1.9.3"
       }
     },
     "@firebase/database-types": {
-      "version": "0.4.0",
-      "resolved": "https://registry.npmjs.org/@firebase/database-types/-/database-types-0.4.0.tgz",
-      "integrity": "sha512-2piRYW7t+2s/P1NPpcI/3+8Y5l2WnJhm9KACoXW5zmoAPlya8R1aEaR2dNHLNePTMHdg04miEDD9fEz4xUqzZA=="
+      "version": "0.4.0-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/database-types/-/database-types-0.4.0-canary.ae32b2b.tgz",
+      "integrity": "sha512-Yz/iQo8pWRzYS/ElFQy7Kz9fC0xGRdJVFpyhNffuNeu/o8WK/aJ6pjIa8X6LdvfNX/mDkvrXTBbn2qlpJtOREQ=="
     },
     "@firebase/firestore": {
-      "version": "1.3.2",
-      "resolved": "https://registry.npmjs.org/@firebase/firestore/-/firestore-1.3.2.tgz",
-      "integrity": "sha512-dyAYlSZbjkEuZEb4XdDi3LGVF6SVZxaeXvVpCmhYeZ7o5TUr32KjS6RmOsFz+Ps+CyfYoKiXUHzjLMnilarG9w==",
+      "version": "1.3.2-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/firestore/-/firestore-1.3.2-canary.ae32b2b.tgz",
+      "integrity": "sha512-TylIWM+WV3GQzuIaGKFcjWrk9ezjVfDJCoekEYC+dvn4eQJjZtnmm8BkF/pJKeiMWPsPOWW+wOw6MS1mwC5EQw==",
       "requires": {
-        "@firebase/firestore-types": "1.3.0",
-        "@firebase/logger": "0.1.14",
-        "@firebase/webchannel-wrapper": "0.2.20",
-        "@grpc/grpc-js": "0.4.0",
+        "@firebase/firestore-types": "1.3.0-canary.ae32b2b",
+        "@firebase/logger": "0.1.14-canary.ae32b2b",
+        "@firebase/webchannel-wrapper": "0.2.20-canary.ae32b2b",
         "@grpc/proto-loader": "^0.5.0",
+        "grpc": "1.20.3",
         "tslib": "1.9.3"
       }
     },
     "@firebase/firestore-types": {
-      "version": "1.3.0",
-      "resolved": "https://registry.npmjs.org/@firebase/firestore-types/-/firestore-types-1.3.0.tgz",
-      "integrity": "sha512-XPnfAaYsKgYivgl/U1+M5ulBG9Hxv52zrZR5TuaoKCU791t/E3K85rT1ZGtEHu9Fj4CPTep2NSl8I30MQpUlHA=="
+      "version": "1.3.0-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/firestore-types/-/firestore-types-1.3.0-canary.ae32b2b.tgz",
+      "integrity": "sha512-d7WR2lR1hX8yNsFK+do47oVVguOK6brWNWHgc/sQ6NbVgEFN0UflsgyfJ+B3/RowHSf4rMHEiFW9dDuOkpbQ1w=="
     },
     "@firebase/functions": {
-      "version": "0.4.7",
-      "resolved": "https://registry.npmjs.org/@firebase/functions/-/functions-0.4.7.tgz",
-      "integrity": "sha512-k0Rn2c1Nsb90Qwk9O2JCSPoH6ozxyp0WZgIPU2OoLzYrrg+fVdcEnG3Sb1YhlOU5yRA9Nuxh1pPBQA3/e/A98g==",
+      "version": "0.4.7-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/functions/-/functions-0.4.7-canary.ae32b2b.tgz",
+      "integrity": "sha512-kxPLBiiqjMtgYCVAgnbLqBj+NbbkoVjkgCtz81lbjs+DnLqiE4fHJ2ovOMqKrSOD7ROjdS2XzEXXRVXzhV1mlg==",
       "requires": {
-        "@firebase/functions-types": "0.3.5",
-        "@firebase/messaging-types": "0.2.11",
+        "@firebase/functions-types": "0.3.5-canary.ae32b2b",
+        "@firebase/messaging-types": "0.2.11-canary.ae32b2b",
         "isomorphic-fetch": "2.2.1",
         "tslib": "1.9.3"
       }
     },
     "@firebase/functions-types": {
-      "version": "0.3.5",
-      "resolved": "https://registry.npmjs.org/@firebase/functions-types/-/functions-types-0.3.5.tgz",
-      "integrity": "sha512-3hTMqfSugCfxzT6vZPbzQ58G4941rsFr99fWKXGKFAl2QpdMBCnKmEKdg/p5M47xIPyzIQn6NMF5kCo/eICXhA=="
+      "version": "0.3.5-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/functions-types/-/functions-types-0.3.5-canary.ae32b2b.tgz",
+      "integrity": "sha512-BzBEyep7YJ+dGiV7gPYJrpYA/nWeIdMbfsmCcrfWUjGICl98W99z8uvSzaXZ/5bd8qvDUV0t8xjEvKknbY9Mbw=="
     },
     "@firebase/installations": {
-      "version": "0.1.2",
-      "resolved": "https://registry.npmjs.org/@firebase/installations/-/installations-0.1.2.tgz",
-      "integrity": "sha512-aDCCnude1Mb9Z9sPkF1rCclk+RztNuMIhAn0VxU9cjWqxj2CsgYvdRa9W5oDzfJv6QJQ30AzLCvwIxb5gOeoCQ==",
+      "version": "0.1.2-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/installations/-/installations-0.1.2-canary.ae32b2b.tgz",
+      "integrity": "sha512-W5+KMvQklhlz7auu2LAgOhSnu/hUhFWY45QjMnwXruX9n3FLju0ubv2apMAhWGBGDcOzF5Eufwq7JcLbo6nspw==",
       "requires": {
-        "@firebase/installations-types": "0.1.0",
-        "@firebase/util": "0.2.16",
+        "@firebase/installations-types": "0.1.0-canary.ae32b2b",
+        "@firebase/util": "0.2.16-canary.ae32b2b",
         "idb": "3.0.2",
         "tslib": "1.9.3"
       }
     },
     "@firebase/installations-types": {
-      "version": "0.1.0",
-      "resolved": "https://registry.npmjs.org/@firebase/installations-types/-/installations-types-0.1.0.tgz",
-      "integrity": "sha512-cw2UIvPa3+umy6w7dGj0LqQQ9v7WEOro5s+6B+v54Tw25WyLnR6cBIkyyahv3Uu9QPnGZCIsemlQwxIaIOMb9g=="
+      "version": "0.1.0-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/installations-types/-/installations-types-0.1.0-canary.ae32b2b.tgz",
+      "integrity": "sha512-Fi5mgSz2Sn/WWtkhpvNBh/1hRpG/FzVu1HDd7HYEbWL9HRVwfCvhxSsUcchgeWeX8EMpzEDwTgSsfzTXTN6P4Q=="
     },
     "@firebase/logger": {
-      "version": "0.1.14",
-      "resolved": "https://registry.npmjs.org/@firebase/logger/-/logger-0.1.14.tgz",
-      "integrity": "sha512-WREaY2n6HzypeoovOjYefjLJqT9+zlI1wQlLMXnkSPhwuM+udIQ87orjVL6tfmuHW++u5bZh3JJAyvuRv/nciA=="
+      "version": "0.1.14-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/logger/-/logger-0.1.14-canary.ae32b2b.tgz",
+      "integrity": "sha512-LwDLfaewIWZSvLKd3YlV6u36QgG6YsUlkXmabu9iH/UTgFJ8XPnHI5l/TmxZRWb1SzykWZLXzXY92hsz6IL6dQ=="
     },
     "@firebase/messaging": {
-      "version": "0.3.21",
-      "resolved": "https://registry.npmjs.org/@firebase/messaging/-/messaging-0.3.21.tgz",
-      "integrity": "sha512-yybhJzppmzqCxwwvVfkSymqZ/rhPrB6KXduaVOHkEmXG0YAdeSUHZqxjK+GfTMel0oBDrGvNNVaOWsXbuingqg==",
+      "version": "0.3.21-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/messaging/-/messaging-0.3.21-canary.ae32b2b.tgz",
+      "integrity": "sha512-g3X6MWVCAl34hkFYaw50MGZNZ8yUOsK++XmtTyXHa8aujS7VwzKje5IySBgQhw6oNN/rx611Mn/ax1+cduvRlQ==",
       "requires": {
-        "@firebase/messaging-types": "0.2.11",
-        "@firebase/util": "0.2.16",
+        "@firebase/messaging-types": "0.2.11-canary.ae32b2b",
+        "@firebase/util": "0.2.16-canary.ae32b2b",
         "tslib": "1.9.3"
       }
     },
     "@firebase/messaging-types": {
-      "version": "0.2.11",
-      "resolved": "https://registry.npmjs.org/@firebase/messaging-types/-/messaging-types-0.2.11.tgz",
-      "integrity": "sha512-uWtzPMj1mAX8EbG68SnxE12Waz+hRuO7vtosUFePGBfxVNNmPx5vJyKZTz+hbM4P77XddshAiaEkyduro4gNgA=="
+      "version": "0.2.11-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/messaging-types/-/messaging-types-0.2.11-canary.ae32b2b.tgz",
+      "integrity": "sha512-msFauAYa3qHdDtukFS4UdOufZjX7iVPfPxKC/mqYuMca+mSwEEJ6+o/bQ5uQ/fLykYqc2ZcaE/pK8RM5xtrKIQ=="
     },
     "@firebase/performance": {
-      "version": "0.2.3",
-      "resolved": "https://registry.npmjs.org/@firebase/performance/-/performance-0.2.3.tgz",
-      "integrity": "sha512-+9aZZBPmENbzpief1NK+QTACHbOCwOu0E9coKipurQA7XidPO0oZvENtjJt+R/kDaYTJf1GXud181RDBWx3w9Q==",
+      "version": "0.2.3-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/performance/-/performance-0.2.3-canary.ae32b2b.tgz",
+      "integrity": "sha512-voaHNK8xPZkmaD+1Vvo0oQc40yuwBrY+2ozHPlCUyWe1ycc4qMWPtkZ+nN3CMub7JpC92ZcrlAAgJPvMIpo+0Q==",
       "requires": {
-        "@firebase/installations": "0.1.2",
-        "@firebase/logger": "0.1.14",
-        "@firebase/performance-types": "0.0.1",
-        "@firebase/util": "0.2.16",
+        "@firebase/installations": "0.1.2-canary.ae32b2b",
+        "@firebase/logger": "0.1.14-canary.ae32b2b",
+        "@firebase/performance-types": "0.0.1-canary.ae32b2b",
+        "@firebase/util": "0.2.16-canary.ae32b2b",
         "tslib": "1.9.3"
       }
     },
     "@firebase/performance-types": {
-      "version": "0.0.1",
-      "resolved": "https://registry.npmjs.org/@firebase/performance-types/-/performance-types-0.0.1.tgz",
-      "integrity": "sha512-U45GbVAnPyz7wPLd3FrWdTeaFSvgsnGfGK58VojfEMmFnMAixCM3qBv1XJ0xfhyKbK1xZN4+usWAR8F3CwRAXw=="
+      "version": "0.0.1-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/performance-types/-/performance-types-0.0.1-canary.ae32b2b.tgz",
+      "integrity": "sha512-9o5D8RRKsikhcQxPYucMnNITPkVrev1Wtuizg1IeXJU7EYu60kBUWGxVXybO7lv1oY90qSRl3vBwiNlWAPYcrQ=="
     },
     "@firebase/polyfill": {
-      "version": "0.3.14",
-      "resolved": "https://registry.npmjs.org/@firebase/polyfill/-/polyfill-0.3.14.tgz",
-      "integrity": "sha512-MnJRIS2iqGfQ4SGFFZ441B1VBHgmHiGznpA3gN+FzSdqg9di4sIHw2gM0VOGS6e7jRJxYeyHL3rwzzU43kP+UQ==",
+      "version": "0.3.14-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/polyfill/-/polyfill-0.3.14-canary.ae32b2b.tgz",
+      "integrity": "sha512-Jqp8FC4OAcMoQbGx/GwgWzs0EuRanBl5ACwRoQIAYeVXMqE+U4KM78CyCBGFNZ2Q0DdHvWHCNSdzis2zgNUO9Q==",
       "requires": {
         "core-js": "3.0.1",
         "promise-polyfill": "8.1.0",
@@ -1246,39 +1246,31 @@
       }
     },
     "@firebase/storage": {
-      "version": "0.2.16",
-      "resolved": "https://registry.npmjs.org/@firebase/storage/-/storage-0.2.16.tgz",
-      "integrity": "sha512-R/qLIqp7ht7T0P2w3LWB5JvXUZMCWzrHOyublAa4iSVcuqN2SLMIpqnYXNKYk+o/NcW7jO8DE8c62mnpvsS+pw==",
+      "version": "0.2.16-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/storage/-/storage-0.2.16-canary.ae32b2b.tgz",
+      "integrity": "sha512-3AL6os6zKk3WPvZ7JZsmH+YrfxTpE847RHAKgNfLAWXcNhWT8wyVSa1MQfLkYuXRD082Bx5bfkf58dmaiyGt7g==",
       "requires": {
-        "@firebase/storage-types": "0.2.11",
+        "@firebase/storage-types": "0.2.11-canary.ae32b2b",
         "tslib": "1.9.3"
       }
     },
     "@firebase/storage-types": {
-      "version": "0.2.11",
-      "resolved": "https://registry.npmjs.org/@firebase/storage-types/-/storage-types-0.2.11.tgz",
-      "integrity": "sha512-vGTFJmKbfScmCAVUamREIBTopr5Uusxd8xPAgNDxMZwICvdCjHO0UH0pZZj6iBQuwxLe/NEtFycPnu1kKT+TPw=="
+      "version": "0.2.11-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/storage-types/-/storage-types-0.2.11-canary.ae32b2b.tgz",
+      "integrity": "sha512-F4aBC97eVC0JlZDmcLK8F40vxHuiDYAwaDJNHT4zbLxFyUm+aEqrABvsr1ppZvr+KFWY86Bg1G0qfOp9XfKtaw=="
     },
     "@firebase/util": {
-      "version": "0.2.16",
-      "resolved": "https://registry.npmjs.org/@firebase/util/-/util-0.2.16.tgz",
-      "integrity": "sha512-IgmQzxIqHqyWC3RPlhm01zq0AReDzQij7qG+GtOMbSwFcplyyrW3lD+rxaobrxYzrZA/uMen5yEVGijyTCGmzA==",
+      "version": "0.2.16-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/util/-/util-0.2.16-canary.ae32b2b.tgz",
+      "integrity": "sha512-o01wqxuMSTWswlJvQcsrmfJPtmthRb5knSq2UnFKi5HqYsIblqQmdU0YB5fStLzkj0nbN0Eqo395RzMRbWu39A==",
       "requires": {
         "tslib": "1.9.3"
       }
     },
     "@firebase/webchannel-wrapper": {
-      "version": "0.2.20",
-      "resolved": "https://registry.npmjs.org/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.2.20.tgz",
-      "integrity": "sha512-TpqR1qCn117fY4mrxSGqv/CT/iAM58sHdlS8ujj0Roa7DoleAHJzqOhNNoHCNncwvNDWcvygLsEiTBuDQZsv3A=="
-    },
-    "@grpc/grpc-js": {
-      "version": "0.4.0",
-      "resolved": "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-0.4.0.tgz",
-      "integrity": "sha512-UbGDPnstJamJrSiHzCSwSavIX260IfLOZLRJYDqRKJA/jmVZa3hPMWDjhFrcCKDq2MLc/O/nauFED3r4khcZrA==",
-      "requires": {
-        "semver": "^6.0.0"
-      }
+      "version": "0.2.20-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.2.20-canary.ae32b2b.tgz",
+      "integrity": "sha512-waL9Bfjetv6+ka7hjPCkyLEhqR1WF7Xl58eG4OHMrOtDa14ILD47ccv96BhiQFp+Bbrb6J6/S02cmtIMA9Aa3w=="
     },
     "@grpc/proto-loader": {
       "version": "0.5.1",
@@ -2252,6 +2244,15 @@
       "resolved": "https://registry.npmjs.org/asap/-/asap-2.0.6.tgz",
       "integrity": "sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY="
     },
+    "ascli": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/ascli/-/ascli-1.0.1.tgz",
+      "integrity": "sha1-vPpZdKYvGOgcq660lzKrSoj5Brw=",
+      "requires": {
+        "colour": "~0.7.1",
+        "optjs": "~3.2.2"
+      }
+    },
     "asn1": {
       "version": "0.2.4",
       "resolved": "https://registry.npmjs.org/asn1/-/asn1-0.2.4.tgz",
@@ -3040,6 +3041,21 @@
       "version": "3.0.0",
       "resolved": "https://registry.npmjs.org/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz",
       "integrity": "sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug="
+    },
+    "bytebuffer": {
+      "version": "5.0.1",
+      "resolved": "https://registry.npmjs.org/bytebuffer/-/bytebuffer-5.0.1.tgz",
+      "integrity": "sha1-WC7qSxqHO20CCkjVjfhfC7ps/d0=",
+      "requires": {
+        "long": "~3"
+      },
+      "dependencies": {
+        "long": {
+          "version": "3.2.0",
+          "resolved": "https://registry.npmjs.org/long/-/long-3.2.0.tgz",
+          "integrity": "sha1-2CG3E4yhy1gcFymQ7xTbIAtcR0s="
+        }
+      }
     },
     "bytes": {
       "version": "3.0.0",
@@ -3874,6 +3890,11 @@
         "color-name": "^1.0.0",
         "simple-swizzle": "^0.2.2"
       }
+    },
+    "colour": {
+      "version": "0.7.1",
+      "resolved": "https://registry.npmjs.org/colour/-/colour-0.7.1.tgz",
+      "integrity": "sha1-nLFpkX7F0SwHNtPoaFdG3xyt93g="
     },
     "combined-stream": {
       "version": "1.0.7",
@@ -5769,21 +5790,22 @@
       }
     },
     "firebase": {
-      "version": "6.0.3",
-      "resolved": "https://registry.npmjs.org/firebase/-/firebase-6.0.3.tgz",
-      "integrity": "sha512-Gd3gYRI/lxGQt+Y7R1KcXfKaGhQv3ktvZ1mDzb8Fe+3eik99Cdkg1w6jM8o0T3m0I5nENQmjQPE80jKZswKTGw==",
+      "version": "6.0.3-canary.ae32b2b",
+      "resolved": "https://registry.npmjs.org/firebase/-/firebase-6.0.3-canary.ae32b2b.tgz",
+      "integrity": "sha512-lworLdscuMt5pgk1IIrhuchWsm5Sesb2CkewUL8ma5dgKdL9/e0KQFR0UhAjANTe6s42JGhphSUsPUEe1fcfZw==",
       "requires": {
-        "@firebase/app": "0.4.2",
-        "@firebase/app-types": "0.4.0",
-        "@firebase/auth": "0.11.2",
-        "@firebase/database": "0.4.2",
-        "@firebase/firestore": "1.3.2",
-        "@firebase/functions": "0.4.7",
-        "@firebase/messaging": "0.3.21",
-        "@firebase/performance": "0.2.3",
-        "@firebase/polyfill": "0.3.14",
-        "@firebase/storage": "0.2.16",
-        "@firebase/util": "0.2.16"
+        "@firebase/app": "0.4.2-canary.ae32b2b",
+        "@firebase/app-types": "0.4.0-canary.ae32b2b",
+        "@firebase/auth": "0.11.2-canary.ae32b2b",
+        "@firebase/database": "0.4.2-canary.ae32b2b",
+        "@firebase/firestore": "1.3.2-canary.ae32b2b",
+        "@firebase/functions": "0.4.7-canary.ae32b2b",
+        "@firebase/installations": "0.1.2-canary.ae32b2b",
+        "@firebase/messaging": "0.3.21-canary.ae32b2b",
+        "@firebase/performance": "0.2.3-canary.ae32b2b",
+        "@firebase/polyfill": "0.3.14-canary.ae32b2b",
+        "@firebase/storage": "0.2.16-canary.ae32b2b",
+        "@firebase/util": "0.2.16-canary.ae32b2b"
       }
     },
     "flat-cache": {
@@ -6085,6 +6107,475 @@
       "version": "1.3.0",
       "resolved": "https://registry.npmjs.org/growly/-/growly-1.3.0.tgz",
       "integrity": "sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE="
+    },
+    "grpc": {
+      "version": "1.20.3",
+      "resolved": "https://registry.npmjs.org/grpc/-/grpc-1.20.3.tgz",
+      "integrity": "sha512-GsEsi0NVj6usS/xor8pF/xDbDiwZQR59aZl5NUZ59Sy2bdPQFZ3UePr5wevZjHboirRCIQCKRI1cCgvSWUe2ag==",
+      "requires": {
+        "lodash.camelcase": "^4.3.0",
+        "lodash.clone": "^4.5.0",
+        "nan": "^2.13.2",
+        "node-pre-gyp": "^0.13.0",
+        "protobufjs": "^5.0.3"
+      },
+      "dependencies": {
+        "abbrev": {
+          "version": "1.1.1",
+          "bundled": true
+        },
+        "ansi-regex": {
+          "version": "2.1.1",
+          "bundled": true
+        },
+        "aproba": {
+          "version": "1.2.0",
+          "bundled": true
+        },
+        "are-we-there-yet": {
+          "version": "1.1.5",
+          "bundled": true,
+          "requires": {
+            "delegates": "^1.0.0",
+            "readable-stream": "^2.0.6"
+          }
+        },
+        "balanced-match": {
+          "version": "1.0.0",
+          "bundled": true
+        },
+        "brace-expansion": {
+          "version": "1.1.11",
+          "bundled": true,
+          "requires": {
+            "balanced-match": "^1.0.0",
+            "concat-map": "0.0.1"
+          }
+        },
+        "camelcase": {
+          "version": "2.1.1",
+          "resolved": "https://registry.npmjs.org/camelcase/-/camelcase-2.1.1.tgz",
+          "integrity": "sha1-fB0W1nmhu+WcoCys7PsBHiAfWh8="
+        },
+        "chownr": {
+          "version": "1.1.1",
+          "bundled": true
+        },
+        "cliui": {
+          "version": "3.2.0",
+          "resolved": "https://registry.npmjs.org/cliui/-/cliui-3.2.0.tgz",
+          "integrity": "sha1-EgYBU3qRbSmUD5NNo7SNWFo5IT0=",
+          "requires": {
+            "string-width": "^1.0.1",
+            "strip-ansi": "^3.0.1",
+            "wrap-ansi": "^2.0.0"
+          }
+        },
+        "code-point-at": {
+          "version": "1.1.0",
+          "bundled": true
+        },
+        "concat-map": {
+          "version": "0.0.1",
+          "bundled": true
+        },
+        "console-control-strings": {
+          "version": "1.1.0",
+          "bundled": true
+        },
+        "core-util-is": {
+          "version": "1.0.2",
+          "bundled": true
+        },
+        "deep-extend": {
+          "version": "0.6.0",
+          "bundled": true
+        },
+        "delegates": {
+          "version": "1.0.0",
+          "bundled": true
+        },
+        "detect-libc": {
+          "version": "1.0.3",
+          "bundled": true
+        },
+        "fs-minipass": {
+          "version": "1.2.5",
+          "bundled": true,
+          "requires": {
+            "minipass": "^2.2.1"
+          }
+        },
+        "fs.realpath": {
+          "version": "1.0.0",
+          "bundled": true
+        },
+        "gauge": {
+          "version": "2.7.4",
+          "bundled": true,
+          "requires": {
+            "aproba": "^1.0.3",
+            "console-control-strings": "^1.0.0",
+            "has-unicode": "^2.0.0",
+            "object-assign": "^4.1.0",
+            "signal-exit": "^3.0.0",
+            "string-width": "^1.0.1",
+            "strip-ansi": "^3.0.1",
+            "wide-align": "^1.1.0"
+          }
+        },
+        "has-unicode": {
+          "version": "2.0.1",
+          "bundled": true
+        },
+        "iconv-lite": {
+          "version": "0.4.23",
+          "bundled": true,
+          "requires": {
+            "safer-buffer": ">= 2.1.2 < 3"
+          }
+        },
+        "ignore-walk": {
+          "version": "3.0.1",
+          "bundled": true,
+          "requires": {
+            "minimatch": "^3.0.4"
+          }
+        },
+        "inflight": {
+          "version": "1.0.6",
+          "bundled": true,
+          "requires": {
+            "once": "^1.3.0",
+            "wrappy": "1"
+          }
+        },
+        "inherits": {
+          "version": "2.0.3",
+          "bundled": true
+        },
+        "ini": {
+          "version": "1.3.5",
+          "bundled": true
+        },
+        "is-fullwidth-code-point": {
+          "version": "1.0.0",
+          "bundled": true,
+          "requires": {
+            "number-is-nan": "^1.0.0"
+          }
+        },
+        "isarray": {
+          "version": "1.0.0",
+          "bundled": true
+        },
+        "minimatch": {
+          "version": "3.0.4",
+          "bundled": true,
+          "requires": {
+            "brace-expansion": "^1.1.7"
+          }
+        },
+        "minimist": {
+          "version": "1.2.0",
+          "bundled": true
+        },
+        "minipass": {
+          "version": "2.3.5",
+          "bundled": true,
+          "requires": {
+            "safe-buffer": "^5.1.2",
+            "yallist": "^3.0.0"
+          }
+        },
+        "minizlib": {
+          "version": "1.2.1",
+          "bundled": true,
+          "requires": {
+            "minipass": "^2.2.1"
+          }
+        },
+        "mkdirp": {
+          "version": "0.5.1",
+          "bundled": true,
+          "requires": {
+            "minimist": "0.0.8"
+          },
+          "dependencies": {
+            "minimist": {
+              "version": "0.0.8",
+              "bundled": true
+            }
+          }
+        },
+        "needle": {
+          "version": "2.3.1",
+          "bundled": true,
+          "requires": {
+            "debug": "^4.1.0",
+            "iconv-lite": "^0.4.4",
+            "sax": "^1.2.4"
+          },
+          "dependencies": {
+            "debug": {
+              "version": "4.1.1",
+              "bundled": true,
+              "requires": {
+                "ms": "^2.1.1"
+              }
+            },
+            "ms": {
+              "version": "2.1.1",
+              "bundled": true
+            }
+          }
+        },
+        "node-pre-gyp": {
+          "version": "0.13.0",
+          "bundled": true,
+          "requires": {
+            "detect-libc": "^1.0.2",
+            "mkdirp": "^0.5.1",
+            "needle": "^2.2.1",
+            "nopt": "^4.0.1",
+            "npm-packlist": "^1.1.6",
+            "npmlog": "^4.0.2",
+            "rc": "^1.2.7",
+            "rimraf": "^2.6.1",
+            "semver": "^5.3.0",
+            "tar": "^4"
+          }
+        },
+        "nopt": {
+          "version": "4.0.1",
+          "bundled": true,
+          "requires": {
+            "abbrev": "1",
+            "osenv": "^0.1.4"
+          }
+        },
+        "npm-bundled": {
+          "version": "1.0.6",
+          "bundled": true
+        },
+        "npm-packlist": {
+          "version": "1.4.1",
+          "bundled": true,
+          "requires": {
+            "ignore-walk": "^3.0.1",
+            "npm-bundled": "^1.0.1"
+          }
+        },
+        "npmlog": {
+          "version": "4.1.2",
+          "bundled": true,
+          "requires": {
+            "are-we-there-yet": "~1.1.2",
+            "console-control-strings": "~1.1.0",
+            "gauge": "~2.7.3",
+            "set-blocking": "~2.0.0"
+          }
+        },
+        "number-is-nan": {
+          "version": "1.0.1",
+          "bundled": true
+        },
+        "object-assign": {
+          "version": "4.1.1",
+          "bundled": true
+        },
+        "once": {
+          "version": "1.4.0",
+          "bundled": true,
+          "requires": {
+            "wrappy": "1"
+          }
+        },
+        "os-homedir": {
+          "version": "1.0.2",
+          "bundled": true
+        },
+        "os-locale": {
+          "version": "1.4.0",
+          "resolved": "https://registry.npmjs.org/os-locale/-/os-locale-1.4.0.tgz",
+          "integrity": "sha1-IPnxeuKe00XoveWDsT0gCYA8FNk=",
+          "requires": {
+            "lcid": "^1.0.0"
+          }
+        },
+        "os-tmpdir": {
+          "version": "1.0.2",
+          "bundled": true
+        },
+        "osenv": {
+          "version": "0.1.5",
+          "bundled": true,
+          "requires": {
+            "os-homedir": "^1.0.0",
+            "os-tmpdir": "^1.0.0"
+          }
+        },
+        "path-is-absolute": {
+          "version": "1.0.1",
+          "bundled": true
+        },
+        "process-nextick-args": {
+          "version": "2.0.0",
+          "bundled": true
+        },
+        "protobufjs": {
+          "version": "5.0.3",
+          "resolved": "https://registry.npmjs.org/protobufjs/-/protobufjs-5.0.3.tgz",
+          "integrity": "sha512-55Kcx1MhPZX0zTbVosMQEO5R6/rikNXd9b6RQK4KSPcrSIIwoXTtebIczUrXlwaSrbz4x8XUVThGPob1n8I4QA==",
+          "requires": {
+            "ascli": "~1",
+            "bytebuffer": "~5",
+            "glob": "^7.0.5",
+            "yargs": "^3.10.0"
+          }
+        },
+        "rc": {
+          "version": "1.2.8",
+          "bundled": true,
+          "requires": {
+            "deep-extend": "^0.6.0",
+            "ini": "~1.3.0",
+            "minimist": "^1.2.0",
+            "strip-json-comments": "~2.0.1"
+          }
+        },
+        "readable-stream": {
+          "version": "2.3.6",
+          "bundled": true,
+          "requires": {
+            "core-util-is": "~1.0.0",
+            "inherits": "~2.0.3",
+            "isarray": "~1.0.0",
+            "process-nextick-args": "~2.0.0",
+            "safe-buffer": "~5.1.1",
+            "string_decoder": "~1.1.1",
+            "util-deprecate": "~1.0.1"
+          }
+        },
+        "rimraf": {
+          "version": "2.6.3",
+          "bundled": true,
+          "requires": {
+            "glob": "^7.1.3"
+          },
+          "dependencies": {
+            "glob": {
+              "version": "7.1.3",
+              "bundled": true,
+              "requires": {
+                "fs.realpath": "^1.0.0",
+                "inflight": "^1.0.4",
+                "inherits": "2",
+                "minimatch": "^3.0.4",
+                "once": "^1.3.0",
+                "path-is-absolute": "^1.0.0"
+              }
+            }
+          }
+        },
+        "safe-buffer": {
+          "version": "5.1.2",
+          "bundled": true
+        },
+        "safer-buffer": {
+          "version": "2.1.2",
+          "bundled": true
+        },
+        "sax": {
+          "version": "1.2.4",
+          "bundled": true
+        },
+        "semver": {
+          "version": "5.7.0",
+          "bundled": true
+        },
+        "set-blocking": {
+          "version": "2.0.0",
+          "bundled": true
+        },
+        "signal-exit": {
+          "version": "3.0.2",
+          "bundled": true
+        },
+        "string-width": {
+          "version": "1.0.2",
+          "bundled": true,
+          "requires": {
+            "code-point-at": "^1.0.0",
+            "is-fullwidth-code-point": "^1.0.0",
+            "strip-ansi": "^3.0.0"
+          }
+        },
+        "string_decoder": {
+          "version": "1.1.1",
+          "bundled": true,
+          "requires": {
+            "safe-buffer": "~5.1.0"
+          }
+        },
+        "strip-ansi": {
+          "version": "3.0.1",
+          "bundled": true,
+          "requires": {
+            "ansi-regex": "^2.0.0"
+          }
+        },
+        "strip-json-comments": {
+          "version": "2.0.1",
+          "bundled": true
+        },
+        "tar": {
+          "version": "4.4.8",
+          "bundled": true,
+          "requires": {
+            "chownr": "^1.1.1",
+            "fs-minipass": "^1.2.5",
+            "minipass": "^2.3.4",
+            "minizlib": "^1.1.1",
+            "mkdirp": "^0.5.0",
+            "safe-buffer": "^5.1.2",
+            "yallist": "^3.0.2"
+          }
+        },
+        "util-deprecate": {
+          "version": "1.0.2",
+          "bundled": true
+        },
+        "wide-align": {
+          "version": "1.1.3",
+          "bundled": true,
+          "requires": {
+            "string-width": "^1.0.2 || 2"
+          }
+        },
+        "wrappy": {
+          "version": "1.0.2",
+          "bundled": true
+        },
+        "yallist": {
+          "version": "3.0.3",
+          "bundled": true
+        },
+        "yargs": {
+          "version": "3.32.0",
+          "resolved": "https://registry.npmjs.org/yargs/-/yargs-3.32.0.tgz",
+          "integrity": "sha1-AwiOnr+edWtpdRYR0qXvWRSCyZU=",
+          "requires": {
+            "camelcase": "^2.0.1",
+            "cliui": "^3.0.3",
+            "decamelize": "^1.1.1",
+            "os-locale": "^1.4.0",
+            "string-width": "^1.0.1",
+            "window-size": "^0.1.4",
+            "y18n": "^3.2.0"
+          }
+        }
+      }
     },
     "gzip-size": {
       "version": "5.0.0",
@@ -6596,6 +7087,11 @@
       "requires": {
         "loose-envify": "^1.0.0"
       }
+    },
+    "invert-kv": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/invert-kv/-/invert-kv-1.0.0.tgz",
+      "integrity": "sha1-EEqOSqym09jNFXqO+L+rLXo//bY="
     },
     "ip": {
       "version": "1.1.5",
@@ -8181,6 +8677,14 @@
       "resolved": "https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz",
       "integrity": "sha1-odePw6UEdMuAhF07O24dpJpEbo4="
     },
+    "lcid": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/lcid/-/lcid-1.0.0.tgz",
+      "integrity": "sha1-MIrMr6C8SDo4Z7S28rlQYlHRuDU=",
+      "requires": {
+        "invert-kv": "^1.0.0"
+      }
+    },
     "left-pad": {
       "version": "1.3.0",
       "resolved": "https://registry.npmjs.org/left-pad/-/left-pad-1.3.0.tgz",
@@ -8305,6 +8809,11 @@
       "version": "4.3.0",
       "resolved": "https://registry.npmjs.org/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz",
       "integrity": "sha1-soqmKIorn8ZRA1x3EfZathkDMaY="
+    },
+    "lodash.clone": {
+      "version": "4.5.0",
+      "resolved": "https://registry.npmjs.org/lodash.clone/-/lodash.clone-4.5.0.tgz",
+      "integrity": "sha1-GVhwRQ9aExkkeN9Lw9I9LeoZB7Y="
     },
     "lodash.memoize": {
       "version": "4.1.2",
@@ -8719,6 +9228,11 @@
       "resolved": "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.7.tgz",
       "integrity": "sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s="
     },
+    "nan": {
+      "version": "2.14.0",
+      "resolved": "https://registry.npmjs.org/nan/-/nan-2.14.0.tgz",
+      "integrity": "sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg=="
+    },
     "nanomatch": {
       "version": "1.2.13",
       "resolved": "https://registry.npmjs.org/nanomatch/-/nanomatch-1.2.13.tgz",
@@ -9116,6 +9630,11 @@
         "type-check": "~0.3.2",
         "wordwrap": "~1.0.0"
       }
+    },
+    "optjs": {
+      "version": "3.2.2",
+      "resolved": "https://registry.npmjs.org/optjs/-/optjs-3.2.2.tgz",
+      "integrity": "sha1-aabOicRCpEQDFBrS+bNwvVu29O4="
     },
     "original": {
       "version": "1.0.2",
@@ -13013,6 +13532,11 @@
       "version": "2.0.0",
       "resolved": "https://registry.npmjs.org/which-module/-/which-module-2.0.0.tgz",
       "integrity": "sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho="
+    },
+    "window-size": {
+      "version": "0.1.4",
+      "resolved": "https://registry.npmjs.org/window-size/-/window-size-0.1.4.tgz",
+      "integrity": "sha1-+OGqHuWlPsW/FR/6CXQqatdpeHY="
     },
     "wordwrap": {
       "version": "1.0.0",
