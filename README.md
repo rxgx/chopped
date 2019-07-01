@@ -1,12 +1,10 @@
 # THIS for THAT
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/rxgx/thisforthat.svg)](https://greenkeeper.io/)
-
 You've ran out of ideas and money. Here's a few ideas on how to pivot!
 
-- Data via Firebase
-- CSS styles as JSON
-- React Components
+- Data from Firebase
+- CSS with Styled Components 
+- Rendered by React
 
 ---
 
