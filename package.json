@@ -29,7 +29,7 @@
   },
   "scripts": {
     "deploy": "git subtree push --prefix build origin gh-pages",
-    "lint": "eslint **/*.js",
+    "lint": "eslint src",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
