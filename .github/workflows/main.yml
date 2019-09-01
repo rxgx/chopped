@@ -1,0 +1,23 @@
+name: Pull Request
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 10.x
+        uses: actions/setup-node@v1
+        with:
+          version: 10.x
+          
+      - name: npm install, build, and test
+        run: |
+          npm install --no-progress
+          CI=true npm test
+          npm run build --if-present
