@@ -29,14 +29,10 @@
   },
   "scripts": {
     "deploy": "git subtree push --prefix build origin gh-pages",
-    "lint": "eslint **/*.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     "last 2 chrome versions",
