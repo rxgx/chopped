@@ -39,5 +39,8 @@
     "last 2 edge versions",
     "last 2 firefox versions",
     "last 2 safari versions"
-  ]
+  ],
+  "devDependencies": {
+    "@testing-library/react": "^9.3.0"
+  }
 }
