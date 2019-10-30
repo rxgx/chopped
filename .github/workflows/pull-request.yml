@@ -23,5 +23,5 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install --no-progress
-          npm run build --if-present
           CI=true npm run test
+          npm run build --if-present
