@@ -1,4 +1,4 @@
-import { cleanup, render, fireEvent } from '@testing-library/react';
+import { act, cleanup, render, fireEvent } from '@testing-library/react';
 import React from 'react';
 import ThisForThat, {getRandomValue} from './ThisForThat';
 
@@ -24,7 +24,9 @@ describe('ThisForThat', () => {
     getByText('Vegans');
     
     const button = getByText('Try Again');
-    fireEvent.click(button);
+    act(() => {
+      fireEvent.click(button);
+    });
 
     getByText('YouTube')
     getByText('for');
