@@ -23,5 +23,4 @@ jobs:
       - run: npm ci
       - run: CI=true npm run test
       - run: npm run build
-      - run: cy
-        uses: cypress-io/github-action@v1.16.1
+      - uses: cypress-io/github-action@v1.16.1
