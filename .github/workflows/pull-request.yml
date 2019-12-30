@@ -25,3 +25,10 @@ jobs:
           npm install --no-progress
           CI=true npm run test
           npm run build --if-present
+
+  cypress-run:
+    name: Cypress
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cypress.io
+        uses: cypress-io/github-action@v1.16.1
