@@ -1,7 +1,7 @@
 {
   "name": "thisforthat",
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com)",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Web 2.0 startup idea generator",
   "private": true,
   "repository": {
@@ -28,10 +28,12 @@
     "styled-components": "5.1.1"
   },
   "scripts": {
+    "build": "next build",
     "deploy": "git subtree push --prefix build origin gh-pages",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test"
+    "dev": "next",
+    "export": "next build && next export",
+    "start": "next start",
+    "test": "jest"
   },
   "browserslist": [
     "last 2 chrome versions",

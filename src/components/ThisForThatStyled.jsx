@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export default styled.div`
+  text-align: center;
+  
   .button {
     border: 1px solid lightgray;
+    cursor: pointer;
     padding: 0.5em 1em;
     background-color: #39f;
     color: white;
