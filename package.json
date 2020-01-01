@@ -1,7 +1,7 @@
 {
   "name": "thisforthat",
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com)",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Web 2.0 startup idea generator",
   "private": true,
   "repository": {
@@ -21,17 +21,23 @@
   },
   "homepage": "https://github.com/rxgx/thisforthat#readme",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "firebase": "7.6.2",
+    "next": "^9.1.7",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-scripts": "^3.3.0",
     "styled-components": "4.4.1"
   },
   "scripts": {
+    "build": "next build",
     "deploy": "git subtree push --prefix build origin gh-pages",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test"
+    "dev": "next",
+    "export": "next build && next export",
+    "start": "next start",
+    "test": "jest"
   },
   "browserslist": [
     "last 2 chrome versions",
@@ -40,6 +46,7 @@
     "last 2 safari versions"
   ],
   "devDependencies": {
-    "@testing-library/react": "^9.4.0"
+    "@testing-library/react": "^9.4.0",
+    "jest": "^24.9.0"
   }
 }
