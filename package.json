@@ -40,6 +40,6 @@
     "last 2 safari versions"
   ],
   "devDependencies": {
-    "@testing-library/react": "^9.4.0"
+    "@testing-library/react": "^9.4.1"
   }
 }
