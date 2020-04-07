@@ -25,7 +25,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "^3.4.1",
-    "styled-components": "5.0.1"
+    "styled-components": "5.1.0"
   },
   "scripts": {
     "deploy": "git subtree push --prefix build origin gh-pages",
