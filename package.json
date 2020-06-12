@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/rxgx/thisforthat#readme",
   "dependencies": {
-    "firebase": "7.15.0",
+    "firebase": "7.15.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "^3.4.1",
