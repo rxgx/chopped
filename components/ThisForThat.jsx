@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ThisForThatStyled from './ThisForThatStyled';
+import styles from './ThisForThat.styles.css';
 
 export function getRandomValue(values) {
   const value = values[Math.floor(Math.random() * values.length)];
@@ -17,15 +17,15 @@ export default function ThisForThat (props) {
   }
 
   return (
-    <ThisForThatStyled className="container">
+    <ThisForThatStyled className={styles.container}>
       <p>
-        <strong className="output">{site}</strong>
-        <em className="separator">for</em>
-        <strong className="output">{thing}</strong>
+        <strong className={styles.output}>{site}</strong>
+        <em className={styles.separator}>for</em>
+        <strong className={styles.output}>{thing}</strong>
       </p>
-      <p className="content">
+      <p className={styles.content}>
         <button
-          className="button hitarea"
+          className={[styles.button, styles.hitarea].join(' ')}
           onClick={handleClickEvent}
           type="button"
         >
