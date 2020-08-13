@@ -1,6 +1,25 @@
 {
+  "name": "thisforthat",
+  "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com)",
   "version": "2.0.0",
+  "description": "Web 2.0 startup idea generator",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rxgx/thisforthat.git"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "startup",
+    "ideas",
+    "pivot"
+  ],
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rxgx/thisforthat/issues"
+  },
+  "homepage": "https://github.com/rxgx/thisforthat#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "body-parser": "^1.19.0",
@@ -19,5 +38,12 @@
     "@types/react-dom": "^16.9.4",
     "jest": "^24.9.0"
   },
-  "name": "thisforthat"
+  "scripts": {
+    "build": "next build",
+    "deploy": "git subtree push --prefix build origin gh-pages",
+    "dev": "next",
+    "export": "next build && next export",
+    "start": "next start",
+    "test": "jest"
+  }
 }
