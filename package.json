@@ -42,5 +42,8 @@
     "format": "standard --fix",
     "start": "next start",
     "test": "standard && jest"
+  },
+  "standard": {
+    "env": "jest"
   }
 }
