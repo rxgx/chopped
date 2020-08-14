@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import client from '../clients/Firebase';
 import Layout from '../components/Layout';
 import ThisForThat from '../components/ThisForThat';
-import './index.css';
 
 function Index () {
   const [data, setData] = useState({
