@@ -29,10 +29,9 @@
     "styled-components": "5.1.1"
   },
   "scripts": {
-    "build": "next build",
+    "build": "next build && next export",
     "deploy": "git subtree push --prefix build origin gh-pages",
     "dev": "next",
-    "export": "next build && next export",
     "start": "next start",
     "test": "jest"
   },

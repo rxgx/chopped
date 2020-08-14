@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from './ThisForThat.styles.css';
+import styles from './ThisForThat.module.css';
 
 export function getRandomValue(values) {
   const value = values[Math.floor(Math.random() * values.length)];
