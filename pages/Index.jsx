@@ -10,7 +10,6 @@ function Index () {
   })
 
   useEffect(() => {
-    console.log('client on value')
     client.on('value', snapshot => {
       const values = snapshot.val()
       const data = {
