@@ -1,19 +1,18 @@
-import React, { useState } from "react";
-import styles from './ThisForThat.module.css';
+import styles from './ThisForThat.module.css'
 
-export function getRandomValue(values) {
-  const value = values[Math.floor(Math.random() * values.length)];
-  return value;
+export function getRandomValue (values) {
+  const value = values[Math.floor(Math.random() * values.length)]
+  return value
 }
 
 export default function ThisForThat (props) {
-  const [count, setCount] = useState(0);
-  
-  const site = getRandomValue(props.sites);
-  const thing = getRandomValue(props.things);
+  const [count, setCount] = useState(0)
 
-  function handleClickEvent() {
-    setCount(count + 1);
+  const site = getRandomValue(props.sites)
+  const thing = getRandomValue(props.things)
+
+  function handleClickEvent () {
+    setCount(count + 1)
   }
 
   return (
@@ -27,11 +26,11 @@ export default function ThisForThat (props) {
         <button
           className={[styles.button, styles.hitarea].join(' ')}
           onClick={handleClickEvent}
-          type="button"
+          type='button'
         >
           Try Again
         </button>
       </p>
     </div>
-  );
+  )
 }

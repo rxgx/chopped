@@ -1,35 +1,35 @@
-import { act, cleanup, render, fireEvent } from '@testing-library/react';
-import React from 'react';
-import ThisForThat, {getRandomValue} from './ThisForThat';
+import { act, cleanup, render, fireEvent } from '@testing-library/react'
+import React from 'react'
+import ThisForThat, { getRandomValue } from './ThisForThat'
 
-afterEach(cleanup);
+afterEach(cleanup)
 
 describe('getRandomValue', () => {
   it('returns single value', () => {
-    expect(getRandomValue(['value'])).toBe('value');
-  });
+    expect(getRandomValue(['value'])).toBe('value')
+  })
 
   it('returns random value', () => {
-    const values = ['a', 'b', 'd', 'e'];
+    const values = ['a', 'b', 'd', 'e']
     const value = getRandomValue(values)
-    expect(values.includes(value)).toBe(true);
-  });
-});
+    expect(values.includes(value)).toBe(true)
+  })
+})
 
 describe('ThisForThat', () => {
   it('renders singular data', () => {
-    const { getByText } = render(<ThisForThat sites={['YouTube']} things={['Vegans']} />);
+    const { getByText } = render(<ThisForThat sites={['YouTube']} things={['Vegans']} />)
     getByText('YouTube')
-    getByText('for');
-    getByText('Vegans');
-    
-    const button = getByText('Try Again');
+    getByText('for')
+    getByText('Vegans')
+
+    const button = getByText('Try Again')
     act(() => {
-      fireEvent.click(button);
-    });
+      fireEvent.click(button)
+    })
 
     getByText('YouTube')
-    getByText('for');
-    getByText('Vegans');
-  });
-});
+    getByText('for')
+    getByText('Vegans')
+  })
+})
