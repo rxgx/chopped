@@ -24,16 +24,15 @@
     "firebase": "7.18.0",
     "next": "^9.5.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-scripts": "^3.4.3",
-    "styled-components": "5.1.1"
+    "react-dom": "16.13.1"
   },
   "scripts": {
     "build": "next build && next export",
     "deploy": "git subtree push --prefix build origin gh-pages",
     "dev": "next",
+    "format": "standard --fix",
     "start": "next start",
-    "test": "jest"
+    "test": "standard && jest"
   },
   "browserslist": [
     "last 2 chrome versions",
