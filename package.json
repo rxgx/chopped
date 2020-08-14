@@ -43,5 +43,8 @@
   "devDependencies": {
     "@testing-library/react":  "^10.4.8",
     "jest": "^24.9.0"
+  },
+  "standard": {
+    "env": "jest"
   }
 }
