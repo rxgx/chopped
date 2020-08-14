@@ -24,4 +24,4 @@ jobs:
       - run: npm t --coverage
         env:
           CI: true
-      - run: npm run build --if-present
+      - run: npm run build  --trace-warnings --if-present
