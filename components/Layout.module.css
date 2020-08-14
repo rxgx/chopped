@@ -1,0 +1,28 @@
+.layout {
+  width: 640px;
+  margin: 3em auto 0;
+  text-align: center;
+}
+
+.heading {
+  margin: 4em 0;
+}
+
+.separator {
+  margin-left: 0.375em;
+  margin-right: 0.125em;
+  font-size: 1.5em;
+  font-family: serif;
+  vertical-align: middle;
+}
+
+.word {
+  font-size: 2em;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.intro {
+  font-weight: 300;
+  font-size: 1.5em;
+}

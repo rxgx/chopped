@@ -17,7 +17,7 @@ export default function ThisForThat (props) {
   }
 
   return (
-    <ThisForThatStyled className={styles.container}>
+    <div className={styles.container}>
       <p>
         <strong className={styles.output}>{site}</strong>
         <em className={styles.separator}>for</em>
@@ -32,6 +32,6 @@ export default function ThisForThat (props) {
           Try Again
         </button>
       </p>
-    </ThisForThatStyled>
+    </div>
   );
 }
