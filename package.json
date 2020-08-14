@@ -21,28 +21,26 @@
   },
   "homepage": "https://github.com/rxgx/thisforthat#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
     "firebase": "7.18.0",
     "next": "^9.5.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "styled-components": "5.1.1"
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
     "@testing-library/react": "^10.4.8",
     "@types/node": "^13.1.6",
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
-    "jest": "^24.9.0",
-    "identity-obj-proxy": "^3.0.0"
+    "jest": "^26.4.0",
+    "identity-obj-proxy": "^3.0.0",
+    "standard": "^14.3.4"
   },
   "scripts": {
     "build": "next build && next export",
     "deploy": "git subtree push --prefix build origin gh-pages",
     "dev": "next",
+    "format": "standard --fix",
     "start": "next start",
-    "test": "jest"
+    "test": "standard && jest"
   }
 }

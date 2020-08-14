@@ -1,7 +1,6 @@
-import React from 'react';
-import styles from './Layout.module.css';
+import styles from './Layout.module.css'
 
-export default function Layout(props) {
+export default function Layout (props) {
   return (
     <div className={styles.layout}>
       <header>
@@ -16,5 +15,5 @@ export default function Layout(props) {
       </header>
       {props.children}
     </div>
-  );
+  )
 }
