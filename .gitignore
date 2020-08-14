@@ -1,3 +1,5 @@
+# Ignore NextJS folders
+.next
 out
 
 # Logs
