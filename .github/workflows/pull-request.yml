@@ -20,7 +20,6 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm i -g npm@next-7
       - run: npm ci
       - run: npm t --coverage
         env:
