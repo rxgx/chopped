@@ -26,5 +26,4 @@ jobs:
           npm run build --if-present
         env:
           CI: true
-          NODE_ENV: production
           NODE_OPTIONS: '--trace-warnings'
