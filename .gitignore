@@ -1,6 +1,6 @@
-# Ignore NextJS folders
-.next
-out
+# next.js
+/.next/
+/out/
 
 # Logs
 logs
