@@ -23,7 +23,7 @@ jobs:
       - run: |
           npm ci
           npm t --coverage
-          npm run build --if-present
+          npm run build
         env:
           CI: true
           NODE_OPTIONS: '--trace-warnings'
