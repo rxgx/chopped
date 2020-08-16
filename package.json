@@ -34,12 +34,6 @@
     "start": "next start",
     "test": "standard && jest"
   },
-  "browserslist": [
-    "last 2 chrome versions",
-    "last 2 edge versions",
-    "last 2 firefox versions",
-    "last 2 safari versions"
-  ],
   "devDependencies": {
     "@testing-library/react": "^10.4.8",
     "jest": "^26.4.0",
