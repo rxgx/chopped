@@ -5,5 +5,4 @@
 You've ran out of ideas and money. Here's a few ideas on how to pivot!
 
 - Data from Firebase
-- CSS with Styled Components
-- Rendered by Next.JS and React
+- Rendered by Next.JS via React
