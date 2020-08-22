@@ -35,7 +35,7 @@
     "test": "standard && jest"
   },
   "devDependencies": {
-    "@testing-library/react": "^10.4.8",
+    "@testing-library/react": "^10.4.9",
     "jest": "^26.4.1",
     "identity-obj-proxy": "^3.0.0",
     "standard": "^14.3.4"
