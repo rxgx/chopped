@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import client from '../clients/Firebase'
+import Basket from '../components/Basket'
 import Layout from '../components/Layout'
-import Chopped from '../components/Chopped'
 
 export default function HomePage () {
   const [ingredients, setIngredients] = useState({})
@@ -13,5 +13,5 @@ export default function HomePage () {
     })
   }, [])
 
-  return <Layout><Chopped ingredients={ingredients} /></Layout>
+  return <Layout><Basket ingredients={ingredients} /></Layout>
 }
