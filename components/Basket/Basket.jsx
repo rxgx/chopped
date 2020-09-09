@@ -41,7 +41,7 @@ export default function Basket (props) {
             <rect x='1' y='3' width='22' height='5' />
             <line x1='10' y1='12' x2='14' y2='12' />
           </svg>
-          &nbsp;
+          &nbsp;&nbsp;
           <span>Open Basket</span>
         </button>
       </p>
