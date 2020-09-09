@@ -23,8 +23,8 @@
   "dependencies": {
     "firebase": "7.19.1",
     "next": "^9.5.3",
-    "react": "^17.0.0-rc.0",
-    "react-dom": "^17.0.0-rc.0"
+    "react": "^17.0.0-rc.1",
+    "react-dom": "^17.0.0-rc.1"
   },
   "scripts": {
     "build": "next build && next export",
@@ -32,7 +32,7 @@
     "dev": "next",
     "format": "standard --fix",
     "start": "next start",
-    "test": "standard && jest"
+    "test": "standard && jest --coverage"
   },
   "devDependencies": {
     "@testing-library/react": "^11.0.2",
