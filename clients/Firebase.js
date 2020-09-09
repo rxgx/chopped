@@ -12,6 +12,6 @@ const config = {
 
 firebase.initializeApp(config)
 
-const app = firebase.database().ref('data')
+const app = firebase.database().ref('ingredients')
 
 export default app
