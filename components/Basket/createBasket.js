@@ -1,7 +1,10 @@
-export default function createBasket (items) {
+export default function createBasket (items = {}) {
   const basket = []
+
   let key
   let keys = Object.keys(items)
+
+  if (!keys.length) return basket
 
   for (let i = 0; i < 4; i++) {
     key = keys[Math.floor(Math.random() * keys.length)]
