@@ -1,12 +1,12 @@
 {
-  "name": "thisforthat",
+  "name": "chopped",
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com)",
   "version": "2.0.0",
-  "description": "Web 2.0 startup idea generator",
+  "description": "Chopped random basket simulator",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rxgx/thisforthat.git"
+    "url": "git+https://github.com/rxgx/chopped.git"
   },
   "keywords": [
     "react",
@@ -17,9 +17,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rxgx/thisforthat/issues"
+    "url": "https://github.com/rxgx/chopped/issues"
   },
-  "homepage": "https://github.com/rxgx/thisforthat#readme",
+  "homepage": "https://github.com/rxgx/chopped#readme",
   "dependencies": {
     "firebase": "7.19.1",
     "next": "^9.5.3",

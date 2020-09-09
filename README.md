@@ -1,8 +1,16 @@
-# THIS for THAT
+# Chopped simulator
 
-[![codecov](https://codecov.io/gh/rxgx/thisforthat/branch/main/graph/badge.svg)](https://codecov.io/gh/rxgx/thisforthat)
+[![codecov](https://codecov.io/gh/rxgx/chopped/branch/main/graph/badge.svg)](https://codecov.io/gh/rxgx/chopped)
 
-You've ran out of ideas and money. Here's a few ideas on how to pivot!
+## Quick start
+
+```sh
+npm ci
+npm run dev
+```
+
+## Resources
 
 - Data from Firebase
 - Rendered by Next.JS via React
+- Icons from Feather Icons
