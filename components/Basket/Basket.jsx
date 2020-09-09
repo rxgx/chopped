@@ -33,7 +33,7 @@ export default function Basket (props) {
             fill='none'
             stroke='currentColor'
             strokeWidth='2'
-            stroke-linecap='round'
+            strokeLinecap='round'
             strokeLinejoin='round'
             className='feather feather-archive'
           >
