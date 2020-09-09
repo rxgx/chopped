@@ -5,12 +5,11 @@ export default function Layout (props) {
     <div className={styles.layout}>
       <header>
         <h1 className={styles.heading}>
-          <strong className={styles.word}>This</strong>
-          <em className={styles.separator}>for</em>
-          <strong className={styles.word}>That</strong>
+          <strong className={styles.word}>Chopped</strong>
+          <em className={styles.separator}>simulator</em>
         </h1>
         <p className={styles.intro}>
-          Do you have a second to spare?<br />Let me tell you my website idea.
+          Are you ready to put your culinary skills to work?<br />Let's see what's in your basket!
         </p>
       </header>
       {props.children}
