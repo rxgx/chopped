@@ -1,32 +1,17 @@
 import { useState } from 'react'
-import styles from './Chopped.module.css'
+import styles from './Basket.module.css'
+import createBasket from './createBasket'
 
-export function getRandomIngredients (items) {
-  const basket = []
-  let key
-  let keys = Object.keys(items)
-
-  for (let i = 0; i < 3; i++) {
-    key = keys[Math.floor(Math.random() * keys.length)]
-    basket.push(items[key])
-    keys = keys.filter((item) => item !== key)
-    if (!keys.length) break
-  }
-
-  return basket
-}
-
-export default function Chopped (props) {
+export default function Basket (props) {
   const [basket, setBasket] = useState([])
 
   function handleClickEvent () {
-    const basket = getRandomIngredients(props.ingredients)
+    const basket = createBasket(props.ingredients)
     setBasket(basket)
   }
 
   return (
     <div className={styles.container}>
-      <h1>Your Entrée Basket:</h1>
       <ul>
         {basket.map((item) => (
           <li key={item.label} className={styles.ingredient}>
@@ -56,7 +41,8 @@ export default function Chopped (props) {
             <rect x='1' y='3' width='22' height='5' />
             <line x1='10' y1='12' x2='14' y2='12' />
           </svg>
-          Open Basket
+          &nbsp;
+          <span>Open Basket</span>
         </button>
       </p>
     </div>
