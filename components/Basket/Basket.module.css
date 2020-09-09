@@ -3,10 +3,10 @@
 }
   
 .button {
-  border: 1px solid lightgray;
+  border-radius: .25em;
   cursor: pointer;
-  padding: 0.5em 1em;
-  background-color: #39f;
+  padding: 0.75em 2em;
+  background-color: darkgoldenrod;
   color: white;
   align-items: center;
   display: inline-flex;
@@ -17,17 +17,13 @@
   text-align: center;
 }
 
-.separator {
-  margin: 0 1em;
-  font-size: 1.25rem;
-  font-family: serif;
-  font-style: italic;
-}
-
-.output {
-  border: 1px solid #39f;
+.ingredient {
+  background-color: lightgoldenrodyellow;
+  border: 1px solid goldenrod;
+  margin: .5em;
   padding: 0.5em 0.75em;
   font-size: 1.75em;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.75rem;
+  list-style-type: none;
 }
