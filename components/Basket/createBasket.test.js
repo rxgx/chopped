@@ -13,7 +13,7 @@ test('returns one item', () => {
 test('returns four items', () => {
   const mockData = {
     a: { label: 'For testing' },
-    b: { label: 'Example', url: 'https://examp.le' },
+    b: { label: 'Example', url: 'https://example' },
     c: { label: 'Nothing', type: 'none' },
     d: { label: 'Something' },
     e: { label: 'Another' },

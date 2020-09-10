@@ -1,4 +1,4 @@
-import * as firebase from 'firebase/app'
+import firebase from 'firebase/app'
 import 'firebase/database'
 
 const config = {
@@ -10,8 +10,8 @@ const config = {
   messagingSenderId: '613479190090'
 }
 
-firebase.initializeApp(config)
+if (!firebase.apps.length) firebase.initializeApp(config)
+else firebase.app()
 
-const app = firebase.database().ref('ingredients')
-
-export default app
+// firebase.database.Reference
+export default firebase.database()
