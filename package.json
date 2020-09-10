@@ -28,7 +28,7 @@
   },
   "scripts": {
     "build": "next build && next export",
-    "deploy": "git subtree push --prefix build origin gh-pages",
+    "deploy": "git subtree push --prefix out upstream gh-pages",
     "dev": "next",
     "format": "standard --fix",
     "start": "next start",
