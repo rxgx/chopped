@@ -4,13 +4,26 @@
 
 ## Quick start
 
+If you don't have [NodeJS](https://nodejs.org) installed, I recommend using [Volta](https://volta.sh):
+
+```sh
+volta install node
+```
+
+Install dependencies:
+
 ```sh
 npm ci
+```
+
+Run the NextJS development server:
+
+```sh
 npm run dev
 ```
 
 ## Resources
 
-- Data from Firebase
-- Rendered by Next.JS via React
-- Icons from Feather Icons
+- Data stored in [Firebase](https://firebase.io)
+- Rendered using [Next.JS](https://nextjs.org)
+- Icons by [Feather](https://feathericons.com)

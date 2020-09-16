@@ -42,5 +42,8 @@
   },
   "standard": {
     "env": "jest"
+  },
+  "volta": {
+    "node": "14.11.0"
   }
 }
