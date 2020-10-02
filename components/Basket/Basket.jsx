@@ -3,8 +3,6 @@ import styles from './Basket.module.css'
 import createBasket from './createBasket'
 
 export default function Basket (props) {
-  console.log('render basket', props)
-
   const [basket, setBasket] = useState([])
 
   function handleClickEvent () {

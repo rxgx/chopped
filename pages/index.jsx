@@ -4,8 +4,6 @@ import Basket from '../components/Basket'
 import Layout from '../components/Layout'
 
 export default function HomePage (props) {
-  console.log('render home page')
-
   const [ingredients, setIngredients] = useState()
 
   useEffect(() => {
