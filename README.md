@@ -22,6 +22,13 @@ Run the NextJS development server:
 npm run dev
 ```
 
+Create a static build and host it:
+
+```sh
+npm run build
+serve -l 3000 ./out
+```
+
 ## Resources
 
 - Data stored in [Firebase](https://firebase.io)
