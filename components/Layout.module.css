@@ -1,11 +1,21 @@
-.layout {
+.root {
   width: 640px;
-  margin: 3em auto 0;
+  background-color: white;
+  display: grid;
+  /* grid-template: '; */
+  justify-content: center;
+}
+
+/* HEADER */
+.root > header {
+  margin: 2em 0;
   text-align: center;
 }
 
-.heading {
-  margin: 4em 0;
+/* CONTENT */
+.root > article {
+  margin: 3em auto 0;
+  text-align: center;
 }
 
 .separator {
@@ -25,4 +35,8 @@
 .intro {
   font-weight: 400;
   font-size: 1.5em;
+}
+
+/* FOOTER */
+.root > footer {
 }
