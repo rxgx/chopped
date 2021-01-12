@@ -39,6 +39,7 @@
 
 /* FOOTER */
 .root > footer {
+  color: #666;
   margin: auto;
   text-align: center;
 }

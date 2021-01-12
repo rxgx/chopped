@@ -3,12 +3,16 @@ import styles from './Basket.module.css'
 import createBasket from './createBasket'
 
 export default function Basket (props) {
+  const [isOpen, setIsOpen] = useState(false)
   const [basket, setBasket] = useState([])
 
   function handleClickEvent () {
     const basket = createBasket(props.ingredients)
+    if (!isOpen) setIsOpen(true)
     setBasket(basket)
   }
+
+  const action = isOpen ? 'Try Again' : 'Open Basket'
 
   return (
     <div className={styles.container}>
@@ -25,7 +29,7 @@ export default function Basket (props) {
           onClick={handleClickEvent}
           type='button'
         >
-          <span>Open Basket</span>
+          <span>{action}</span>
         </button>
       </p>
     </div>
