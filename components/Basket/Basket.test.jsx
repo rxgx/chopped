@@ -1,4 +1,4 @@
-import { fireEvent, render } from '@testing-library/react'
+import { fireEvent, render, screen } from '@testing-library/react'
 import Basket from './Basket'
 
 test('renders', () => {
@@ -7,10 +7,12 @@ test('renders', () => {
     b: { label: 'BBB' },
     x: { label: 'XXX' }
   }
-  const { getByText } = render(<Basket ingredients={mockData} />)
-  const button = getByText('Open Basket')
+
+  render(<Basket ingredients={mockData} />)
+
+  const button = screen.getByText('Open Basket')
   fireEvent.click(button)
-  getByText('AAA')
-  getByText('BBB')
-  getByText('XXX')
+  screen.getByText('AAA')
+  screen.getByText('BBB')
+  screen.getByText('XXX')
 })
