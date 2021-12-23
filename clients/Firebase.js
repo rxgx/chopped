@@ -1,5 +1,5 @@
-import firebase from 'firebase/app'
-import 'firebase/database'
+import { initializeApp } from 'firebase/app'
+import { getDatabase } from 'firebase/database'
 
 const config = {
   apiKey: 'AIzaSyAa0kJW3FV2xlEFGxTXVqrcbvHRzzNI09Q',
@@ -10,8 +10,7 @@ const config = {
   messagingSenderId: '613479190090'
 }
 
-if (!firebase.apps.length) firebase.initializeApp(config)
-else firebase.app()
+const app = initializeApp(config)
 
 // firebase.database.Reference
-export default firebase.database()
+export default getDatabase(app)
