@@ -37,7 +37,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.5.1",
+    "jest": "^28.1.1",
     "standard": "^16.0.4"
   },
   "standard": {
