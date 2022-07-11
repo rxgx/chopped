@@ -8,21 +8,14 @@
     "type": "git",
     "url": "git+https://github.com/rxgx/chopped.git"
   },
-  "keywords": [
-    "react",
-    "firebase",
-    "css",
-    "html",
-    "nextjs"
-  ],
+  "keywords": ["react", "firebase", "css", "html", "nextjs"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rxgx/chopped/issues"
   },
   "homepage": "https://github.com/rxgx/chopped#readme",
   "dependencies": {
-    "firebase": "^9.8.2",
-    "next": "^12.2.0",
+    "firebase": "^9.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -30,20 +23,19 @@
     "build": "next build && next export",
     "dev": "next",
     "format": "standard --fix",
+    "lint": "next lint",
     "start": "next start",
-    "test": "standard && jest --coverage"
+    "test": "jest --coverage"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "eslint-config-next": "12.2.2",
+    "eslint-config-prettier": "^8.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.1.2",
     "jest-environment-jsdom": "^28.1.2",
-    "standard": "^16.0.4"
-  },
-  "standard": {
-    "env": "jest"
+    "next": "^12.2.2"
   },
   "volta": {
     "node": "16.16.0"
