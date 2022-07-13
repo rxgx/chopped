@@ -8,7 +8,13 @@
     "type": "git",
     "url": "git+https://github.com/rxgx/chopped.git"
   },
-  "keywords": ["react", "firebase", "css", "html", "nextjs"],
+  "keywords": [
+    "react",
+    "firebase",
+    "css",
+    "html",
+    "nextjs"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rxgx/chopped/issues"
