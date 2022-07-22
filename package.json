@@ -36,7 +36,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
-    "eslint-config-next": "12.2.2",
+    "eslint-config-next": "12.2.3",
     "eslint-config-prettier": "^8.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.1.3",
