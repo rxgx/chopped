@@ -41,7 +41,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.1.3",
     "jest-environment-jsdom": "^28.1.3",
-    "next": "^12.2.2"
+    "next": "^12.2.3"
   },
   "volta": {
     "node": "16.16.0"
