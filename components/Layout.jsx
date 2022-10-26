@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './Layout.module.css'
 
 export default function Layout (props) {
@@ -5,10 +6,11 @@ export default function Layout (props) {
     <main className={styles.root}>
       <header>
         <h1 className={styles.heading}>
-          <img
+          <Image
             width={80}
             src='./shopping.svg'
             style={{ display: 'inline-block', verticalAlign: 'middle' }}
+            alt=''
           />
           &nbsp;
           <strong className={styles.word}>Chopped</strong>

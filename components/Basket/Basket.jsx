@@ -12,7 +12,7 @@ export default function Basket (props) {
     setBasket(basket)
   }
 
-  const action = isOpen ? 'Try Again' : 'Open Basket'
+  const action = isOpen ? 'Reset Basket' : 'Open Basket'
 
   return (
     <div className={styles.container}>
