@@ -27,3 +27,5 @@ jobs:
         env:
           CI: true
           NODE_OPTIONS: '--trace-warnings'
+      - name: Infracost Actions
+        uses: infracost/actions@v2.0.0
