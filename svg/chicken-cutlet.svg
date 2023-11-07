@@ -1,3 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-  <path d="M30 120 L60 100 L150 100 L180 120 L150 140 L60 140 Z" fill="lightgoldenrodyellow" stroke="goldenrod" stroke-width="2" />
+  <!-- Body -->
+  <ellipse cx="100" cy="130" rx="60" ry="80" fill="white" stroke="orange" stroke-width="2" />
+
+  <!-- Head -->
+  <circle cx="100" cy="80" r="25" fill="white" stroke="orange" stroke-width="2" />
+
+  <!-- Beak -->
+  <polygon points="100,75 110,85 100,85" fill="orange" />
+
+  <!-- Eye -->
+  <circle cx="95" cy="75" r="3" fill="black" />
+
+  <!-- Comb (the fleshy crest on the head) -->
+  <polygon points="100,65 90,60 100,55 110,60" fill="red" />
+
+  <!-- Wing -->
+  <path d="M80 120 Q100 100 100 120 Z" fill="white" stroke="orange" stroke-width="2" />
+
+  <!-- Tail feathers -->
+  <path d="M90 130 L90 160 L60 140 Z" fill="white" stroke="orange" stroke-width="2" />
+  <path d="M110 130 L110 160 L140 140 Z" fill="white" stroke="orange" stroke-width="2" />
 </svg>
