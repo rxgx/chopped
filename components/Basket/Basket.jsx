@@ -37,7 +37,7 @@ export default function Basket (props) {
     setBasket(data)
   }
 
-  const nextRoundNum = roundNum > rounds.count ? 0 : roundNum + 1;
+  const nextRoundNum = roundNum > rounds.count ? 1 : roundNum + 1;
   const nextRound = rounds.find(r => r.num === nextRoundNum);
   const action = nextRound?.label
     ? `Start ${nextRound.label} Round`
