@@ -1,28 +1,44 @@
 import { useState } from 'react'
+import Ingredients from './Ingredients'
 import styles from './Basket.module.css'
 import createBasket from './createBasket'
 
+const rounds = [
+  {
+    num: 1,
+    name: 'appetizer',
+    label: 'Appetizer',
+  },
+  {
+    num: 2,
+    name: 'entree',
+    label: 'Entreé'
+  },
+  {
+    num: 3,
+    name: 'dessert',
+    label: 'Dessert'
+  },
+]
+
 export default function Basket (props) {
-  const [isOpen, setIsOpen] = useState(false)
+  const [roundNum, setRoundNum] = useState(0)
   const [basket, setBasket] = useState([])
 
   function handleClickEvent () {
-    const basket = createBasket(props.ingredients)
-    if (!isOpen) setIsOpen(true)
-    setBasket(basket)
+    const data = createBasket(props.ingredients)
+    setBasket(data)
+    setRoundNum(roundNum + 1)
   }
 
-  const action = isOpen ? 'Reset Basket' : 'Open Basket'
+  const { label: roundLabel, name: roundName } = rounds[roundNum];
+
+  let action = `${label} Round`;
 
   return (
     <div className={styles.container}>
-      <ul>
-        {basket.map(item => (
-          <li key={item.label} className={styles.ingredient}>
-            {item.label}
-          </li>
-        ))}
-      </ul>
+      <h2>{roundLabel} Round</h2>
+      <Ingredients basket={basket} />
       <p className={styles.content}>
         <button
           className={[styles.button, styles.hitarea].join(' ')}

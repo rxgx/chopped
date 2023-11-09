@@ -18,8 +18,6 @@ export default function Layout (props) {
         </h1>
         <p className={styles.intro}>
           Are you ready to put your culinary skills to work?
-          <br />
-          Let&rsquo;s see what is in your basket!
         </p>
       </header>
       <article>{props.children}</article>
