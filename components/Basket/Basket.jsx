@@ -33,19 +33,18 @@ export default function Basket (props) {
 
   const { label, name } = rounds[roundNum];
 
-  let action = `${label} Round`;
+  const action = rounds[roundNum + 1].label;
 
   return (
     <div key={name} className={styles.container}>
-      <h2>{label} Round</h2>
-      <Ingredients basket={basket} />
+      <Ingredients basket={basket} round={rounds.find(r => r.num === roundNum)} />
       <p className={styles.content}>
         <button
           className={[styles.button, styles.hitarea].join(' ')}
           onClick={handleClickEvent}
           type='button'
         >
-          <span>{action}</span>
+          <span>Start {action} Round</span>
         </button>
       </p>
     </div>

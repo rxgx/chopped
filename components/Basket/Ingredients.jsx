@@ -1,15 +1,18 @@
 import React from 'react';
 import styles from './Ingredients.module.css'
 
-export default function Ingredients ({ basket }) {
-    if (!basket) return null
+export default function Ingredients ({ basket, round }) {
+    if (!basket || !round) return null
     return (
-        <ul>
-        {basket.map(item => (
-            <li key={item.label} className={styles.ingredient}>
-                {item.label}
-            </li>
-        ))}
-        </ul>
+        <>
+            <h2>{round.label} Round</h2>
+            <ul>
+            {basket.map(item => (
+                <li key={item.label} className={styles.ingredient}>
+                    {item.label}
+                </li>
+            ))}
+            </ul>
+        </>
     )
 }
