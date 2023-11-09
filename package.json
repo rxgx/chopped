@@ -26,7 +26,7 @@
     "react-dom": "^18.2.0"
   },
   "scripts": {
-    "build": "next build && next export",
+    "build": "next build",
     "dev": "next",
     "format": "standard --fix",
     "lint": "next lint",
