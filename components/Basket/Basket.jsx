@@ -31,13 +31,13 @@ export default function Basket (props) {
     setRoundNum(roundNum + 1)
   }
 
-  const { label: roundLabel, name: roundName } = rounds[roundNum];
+  const { label, name } = rounds[roundNum];
 
   let action = `${label} Round`;
 
   return (
-    <div className={styles.container}>
-      <h2>{roundLabel} Round</h2>
+    <div key={name} className={styles.container}>
+      <h2>{label} Round</h2>
       <Ingredients basket={basket} />
       <p className={styles.content}>
         <button
