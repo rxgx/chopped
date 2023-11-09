@@ -26,23 +26,23 @@ export default function Basket (props) {
   const [basket, setBasket] = useState([])
 
   function handleClickEvent () {
-    // get random ingredients
-    const data = createBasket(props.ingredients)
-    setBasket(data)
     // get next state for button
     let nextNum = roundNum + 1
     if (nextNum > rounds.count) nextNum = 0
+    console.log('next round num', nextNum)
     setRoundNum(nextNum)
+    if (nextNum === 0) setBasket([])
+    // get random ingredients
+    const data = createBasket(props.ingredients)
+    setBasket(data)
   }
-
-  const { label, name } = rounds[roundNum];
 
   const nextRoundNum = roundNum > rounds.count ? 0 : roundNum + 1;
   const nextRound = rounds.find(r => r.num === nextRoundNum);
-  const action = nextRound?.num || 'Replay';
+  const action = nextRound?.label || 'Replay';
 
   return (
-    <div key={name} className={styles.container}>
+    <div className={styles.container}>
       <Ingredients basket={basket} round={rounds.find(r => r.num === roundNum)} />
       <p className={styles.content}>
         <button
