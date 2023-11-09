@@ -39,7 +39,9 @@ export default function Basket (props) {
 
   const nextRoundNum = roundNum > rounds.count ? 0 : roundNum + 1;
   const nextRound = rounds.find(r => r.num === nextRoundNum);
-  const action = nextRound?.label || 'Replay';
+  const action = nextRound?.label
+    ? `Start ${nextRound.label} Round`
+    : 'Try Again'
 
   return (
     <div className={styles.container}>
@@ -50,7 +52,7 @@ export default function Basket (props) {
           onClick={handleClickEvent}
           type='button'
         >
-          <span>Start {action} Round</span>
+          <span>{action}</span>
         </button>
       </p>
     </div>
