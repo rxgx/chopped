@@ -34,7 +34,7 @@
     "test": "jest --coverage"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^16.0.0",
     "eslint-config-next": "^14.2.4",
     "eslint-config-prettier": "^9.1.0",
