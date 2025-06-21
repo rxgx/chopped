@@ -16,14 +16,3 @@
   margin-top: 3em;
   text-align: center;
 }
-
-.ingredient {
-  background-color: lightgoldenrodyellow;
-  border: 1px solid goldenrod;
-  margin: .5em;
-  padding: 0.5em 0.75em;
-  font-size: 1.75em;
-  font-weight: 500;
-  line-height: 1.75rem;
-  list-style-type: none;
-}
