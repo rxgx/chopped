@@ -44,7 +44,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
-  "volta": {
+  "engines": {
     "node": "22.x"
   }
 }
