@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/rxgx/chopped#readme",
   "dependencies": {
-    "firebase": "^12.5.0"
+    "firebase": "^12.6.0"
   },
   "scripts": {
     "build": "next build",
