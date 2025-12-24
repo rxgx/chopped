@@ -26,7 +26,6 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
-    "format": "standard --fix",
     "lint": "next lint",
     "start": "next start",
     "test": "jest --coverage"
